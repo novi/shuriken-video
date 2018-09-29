@@ -1,0 +1,24 @@
+Ref Name,Qty,Component,Value,Package,Part Number,Part Number (Farnell),Part Number (Digi-Key),Part Number 秋月電子,Description
+U4,1,1_2V_REG_T0220,1.2 volt,TO220,MCP1827S-1202E/EB,1852008 or 1852007,MCP1827S-1202E/EB-ND,,vreg
+U3,1,5V_REG_SOT23,5 volt ,SOT23,MCP1804T-5002I/OT,1825007,MCP1804T-5002I/OTCT-ND,,vreg
+C1,1,Capacitor,0.1u,603,,1414664,,,Capacitor
+C3,1,Capacitor,0.1u,603,,1414664,,,Capacitor
+C4,1,Capacitor,0.1u,603,,1414664,,,Capacitor
+C5,1,Capacitor,0.1u,603,,1414664,,,Capacitor
+C6,1,Capacitor,1u,603,,1414664,,,Capacitor
+C7,1,Capacitor,10u,1206,,2112919,,,Capacitor
+C8,1,Capacitor,10u,1206,293D106X06R3A2TE3,1414664,,,Capacitor
+CONN2,1,HDMI,n/a,USER,MOLEX 47151-1001,1516661,WM19088CT-ND,,connector
+U2,1,M25P40,4 mbit,SOIC,"M25P40-VMN6PB
+Or SST25PF040C-40I/SN",2253716,SST25PF040C-40I/SN-ND,,flash
+R3,1,Resistor,4.7K,603,,1653013,,,Resistor
+R4,1,Resistor,4.7K,603,,1653013,,,Resistor
+R5,1,Resistor,10K,603,,1469857,,,Resistor
+R6,1,Resistor,10K,603,,1469857,,,Resistor
+R7,1,Resistor,180,603,,1652931,,,Resistor
+R2,1,Resistor,330,603,,2303495,,,Resistor
+U1,1,XC3S50A or XC3S200A,n/a,QFP,XC3S200A-4VQG100C,1671088 or 1876204,122-1594-ND,,FPGA
+PCB lead frame,1,,,,SS2.54-6SN,,,C-07011,
+TOSLINK Transmitter,1,,3.3V,,PLT133/T,,,C-09596,
+Caps for TOSLINK,1,Capacitor,0.47u,,,,,,Capacitor
+Pin Headers (2mm),,,,,,,,"C-08591, C-03667, C-06074",
