@@ -1,0 +1,25 @@
+Pour Copper Report
+------------------
+
+Report File    : C:\devkitPro\gamecube\pcb\video_v3\video (PCB - Pour Copper Report).txt
+Report Written : Sunday, January 24, 2016
+Design Path    : C:\devkitPro\gamecube\pcb\video_v3\video.pcb
+Design Title   : 
+Created        : 13/02/2015 17:27:29
+Last Saved     : 24/01/2016 18:13:05
+Editing Time   : 2449 min
+Units          : mm (precision 1)
+
+U1.29 at 498.3,504.8 has no thermal spokes
+U1.31 at 498.3,503.8 has no thermal spokes
+U1.45 at 498.3,496.8 has no thermal spokes
+U1.55 at 502.0,492.5 has no thermal spokes
+U1.67 at 508.0,492.5 has no thermal spokes
+U1.79 at 513.8,495.8 has no thermal spokes
+U1.92 at 513.8,502.3 has no thermal spokes
+U1.96 at 513.8,504.3 has no thermal spokes
+U1.11 at 507.0,508.0 has no thermal spokes
+U1.22 at 501.5,508.0 has no thermal spokes
+U2.8 at 494.3,489.8 has no thermal spokes
+
+End Of Report.

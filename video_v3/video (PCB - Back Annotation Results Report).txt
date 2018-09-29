@@ -1,0 +1,38 @@
+Back Annotation Results Report
+------------------------------
+
+Report File    : C:\devkitPro\gamecube\pcb\video\video (PCB - Back Annotation Results Report).txt
+Report Written : Saturday, February 14, 2015
+Design Path    : C:\devkitPro\gamecube\pcb\video\video.pcb
+Design Title   : 
+Created        : 13/02/2015 17:27:29
+Last Saved     : 14/02/2015 10:00:24
+Editing Time   : 79 min
+Units          : mm (precision 1)
+
+Back Annotate renames from PCB "C:\devkitPro\gamecube\pcb\video\video.pcb" to Schematic "C:\devkitPro\gamecube\pcb\video\video.sch".
+
+Change Value on Component 'R1' - 'Value'.
+Change Value on Component 'R1' - 'Value'.
+Change Value on Component 'R1' - 'Value'.
+Change Value on Component 'R2' - 'Value'.
+Change Value on Component 'R2' - 'Value'.
+Change Value on Component 'R2' - 'Value'.
+Change Value on Component 'R3' - 'Value'.
+Change Value on Component 'R3' - 'Value'.
+Change Value on Component 'R3' - 'Value'.
+Change Value on Component 'R4' - 'Value'.
+Change Value on Component 'R4' - 'Value'.
+Change Value on Component 'R4' - 'Value'.
+Change Value on Component 'R5' - 'Value'.
+Change Value on Component 'R5' - 'Value'.
+Change Value on Component 'R5' - 'Value'.
+Change Value on Component 'R6' - 'Value'.
+Change Value on Component 'R6' - 'Value'.
+Change Value on Component 'R6' - 'Value'.
+Change Value on Component 'R7' - 'Value'.
+Change Value on Component 'R7' - 'Value'.
+Change Value on Component 'R7' - 'Value'.
+
+
+End Of Report.

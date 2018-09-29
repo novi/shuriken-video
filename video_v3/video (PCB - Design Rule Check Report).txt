@@ -1,0 +1,64 @@
+Design Rule Check Report
+------------------------
+
+Report File    : C:\devkitPro\gamecube\pcb\video_v3\video (PCB - Design Rule Check Report).txt
+Report Written : Saturday, October 31, 2015
+Design Path    : C:\devkitPro\gamecube\pcb\video_v3\video.pcb
+Design Title   : 
+Created        : 13/02/2015 17:27:29
+Last Saved     : 31/10/2015 21:25:22
+Editing Time   : 2276 min
+Units          : mm (precision 1)
+
+
+Results
+=======
+
+
+No errors found
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks         No
+Pads and Vias  No
+Shapes         No
+Text           No
+Board          No
+Drills         No
+Components     No
+
+
+Manufacturing
+
+==============
+
+Drill Breakout                   No
+Drill Backoff                    No
+Silkscreen Overlap               No
+Copper Text In Board             No
+Min Track Width                  No
+Min Annular Ring                 No
+Min Paste Size                   No
+Vias In Pads                     No
+Unplated Vias                    No
+Unplated Pads With Inner Tracks  No
+
+
+Nets
+
+=====
+
+Net Completion                No
+Dangling Tracks               No
+Net Track Length Differences  No
+
+
+
+End Of Report.

@@ -1,0 +1,16 @@
+Forward Design Changes Report
+-----------------------------
+
+Report File    : C:\devkitPro\gamecube\pcb\video_v3\video (PCB - Forward Design Changes Report).txt
+Report Written : Saturday, October 31, 2015
+Design Path    : C:\devkitPro\gamecube\pcb\video_v3\video.pcb
+Design Title   : 
+Created        : 13/02/2015 17:27:29
+Last Saved     : 31/10/2015 00:32:05
+Editing Time   : 2160 min
+Units          : mm (precision 1)
+
+The designs are the same, so no design changes to forward.
+
+
+End Of Report.
