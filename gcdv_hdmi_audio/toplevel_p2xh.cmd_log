@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/xilimux_projects/hdmi/gcdv_hdmi_audio/toplevel_p2xh.xst" -ofn "C:/xilimux_projects/hdmi/gcdv_hdmi_audio/toplevel_p2xh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pindefs-p2xh.ucf -p xc3s50a-vq100-4 toplevel_p2xh.ngc toplevel_p2xh.ngd  
+map -intstyle ise -p xc3s50a-vq100-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm balanced -ir off -ignore_keep_hierarchy -pr b -power off -o toplevel_p2xh_map.ncd toplevel_p2xh.ngd toplevel_p2xh.pcf 
+par -w -intstyle ise -ol high -xe n -t 1 toplevel_p2xh_map.ncd toplevel_p2xh.ncd toplevel_p2xh.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel_p2xh.twx toplevel_p2xh.ncd -o toplevel_p2xh.twr toplevel_p2xh.pcf -ucf pindefs-p2xh.ucf 
+bitgen -intstyle ise -f toplevel_p2xh.ut toplevel_p2xh.ncd 
+xst -intstyle ise -ifn "C:/xilimux_projects/hdmi/gcdv_hdmi_audio/toplevel_p2xh.xst" -ofn "C:/xilimux_projects/hdmi/gcdv_hdmi_audio/toplevel_p2xh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pindefs-p2xh.ucf -p xc3s50a-vq100-4 toplevel_p2xh.ngc toplevel_p2xh.ngd  
+map -intstyle ise -p xc3s50a-vq100-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm balanced -ir off -ignore_keep_hierarchy -pr b -power off -o toplevel_p2xh_map.ncd toplevel_p2xh.ngd toplevel_p2xh.pcf 
+par -w -intstyle ise -ol high -xe n -t 1 toplevel_p2xh_map.ncd toplevel_p2xh.ncd toplevel_p2xh.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel_p2xh.twx toplevel_p2xh.ncd -o toplevel_p2xh.twr toplevel_p2xh.pcf -ucf pindefs-p2xh.ucf 
+bitgen -intstyle ise -f toplevel_p2xh.ut toplevel_p2xh.ncd 
+xst -intstyle ise -ifn "C:/xilimux_projects/hdmi/gcdv_hdmi_audio/toplevel_p2xh.xst" -ofn "C:/xilimux_projects/hdmi/gcdv_hdmi_audio/toplevel_p2xh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pindefs-p2xh.ucf -p xc3s50a-vq100-4 toplevel_p2xh.ngc toplevel_p2xh.ngd  
+map -intstyle ise -p xc3s50a-vq100-4 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm balanced -ir off -ignore_keep_hierarchy -pr b -power off -o toplevel_p2xh_map.ncd toplevel_p2xh.ngd toplevel_p2xh.pcf 
+par -w -intstyle ise -ol high -xe n -t 1 toplevel_p2xh_map.ncd toplevel_p2xh.ncd toplevel_p2xh.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml toplevel_p2xh.twx toplevel_p2xh.ncd -o toplevel_p2xh.twr toplevel_p2xh.pcf -ucf pindefs-p2xh.ucf 
+bitgen -intstyle ise -f toplevel_p2xh.ut toplevel_p2xh.ncd 

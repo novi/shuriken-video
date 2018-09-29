@@ -1,0 +1,864 @@
+//! **************************************************************************
+// Written by: Map P.49d on Mon Aug 31 23:13:29 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "DVI_Clock<0>" LOCATE = SITE "P77" LEVEL 1;
+COMP "DVI_Clock<1>" LOCATE = SITE "P78" LEVEL 1;
+COMP "SPDIF_Out" LOCATE = SITE "P62" LEVEL 1;
+COMP "VClockN" LOCATE = SITE "P43" LEVEL 1;
+COMP "CSel" LOCATE = SITE "P5" LEVEL 1;
+COMP "DVI_Green<0>" LOCATE = SITE "P88" LEVEL 1;
+COMP "DVI_Green<1>" LOCATE = SITE "P89" LEVEL 1;
+COMP "VData<0>" LOCATE = SITE "P6" LEVEL 1;
+COMP "VData<1>" LOCATE = SITE "P7" LEVEL 1;
+COMP "VData<2>" LOCATE = SITE "P9" LEVEL 1;
+COMP "VData<3>" LOCATE = SITE "P10" LEVEL 1;
+COMP "VData<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "VData<5>" LOCATE = SITE "P13" LEVEL 1;
+COMP "VData<6>" LOCATE = SITE "P15" LEVEL 1;
+COMP "VData<7>" LOCATE = SITE "P16" LEVEL 1;
+COMP "I2S_BClock" LOCATE = SITE "P41" LEVEL 1;
+COMP "I2S_LRClock" LOCATE = SITE "P39" LEVEL 1;
+COMP "DVI_Blue<0>" LOCATE = SITE "P83" LEVEL 1;
+COMP "DVI_Blue<1>" LOCATE = SITE "P84" LEVEL 1;
+COMP "DVI_Red<0>" LOCATE = SITE "P93" LEVEL 1;
+COMP "DVI_Red<1>" LOCATE = SITE "P94" LEVEL 1;
+COMP "I2S_Data" LOCATE = SITE "P40" LEVEL 1;
+COMP "CableDetect" LOCATE = SITE "P3" LEVEL 1;
+PIN
+        Inst_DVI/Inst_InfoFrameROM/Mram_Address[9]_GND_11_o_wide_mux_0_OUT_pins<11>
+        = BEL
+        "Inst_DVI/Inst_InfoFrameROM/Mram_Address[9]_GND_11_o_wide_mux_0_OUT"
+        PINNAME CLKA;
+PIN Inst_DVI/Inst_UCode/Mram_Address[8]_GND_10_o_wide_mux_4_OUT_pins<10> = BEL
+        "Inst_DVI/Inst_UCode/Mram_Address[8]_GND_10_o_wide_mux_4_OUT" PINNAME
+        CLKA;
+TIMEGRP Inst_ClockGen_dcm_clk2x = BEL "pixel_clk_en_27" BEL "prev_30khz" BEL
+        "prev_pal" BEL "prev_progressive" BEL "prev_vsync" BEL "VGA_Blank" BEL
+        "VGA_Red_0" BEL "VGA_Red_1" BEL "VGA_Red_2" BEL "VGA_Red_3" BEL
+        "VGA_Red_4" BEL "VGA_Red_5" BEL "VGA_Red_6" BEL "VGA_Red_7" BEL
+        "VGA_Green_0" BEL "VGA_Green_1" BEL "VGA_Green_2" BEL "VGA_Green_3"
+        BEL "VGA_Green_4" BEL "VGA_Green_5" BEL "VGA_Green_6" BEL
+        "VGA_Green_7" BEL "VGA_Blue_0" BEL "VGA_Blue_1" BEL "VGA_Blue_2" BEL
+        "VGA_Blue_3" BEL "VGA_Blue_4" BEL "VGA_Blue_5" BEL "VGA_Blue_6" BEL
+        "VGA_Blue_7" BEL "disable_output_0" BEL "disable_output_1" BEL
+        "Inst_GCVideo/modecounter_1" BEL "Inst_GCVideo/modecounter_0" BEL
+        "Inst_GCVideo/Video_Is30kHz" BEL "Inst_GCVideo/input_30khz" BEL
+        "Inst_GCVideo/Video_Blanking" BEL "Inst_GCVideo/Video_IsProgressive"
+        BEL "Inst_GCVideo/Video_IsPAL" BEL "Inst_GCVideo/Video_VSync" BEL
+        "Inst_GCVideo/Video_CurrentIsCb" BEL "Inst_GCVideo/in_blanking" BEL
+        "Inst_GCVideo/PixelClockEnable" BEL "Inst_GCVideo/Video_PixelCbCr_7"
+        BEL "Inst_GCVideo/Video_PixelCbCr_6" BEL
+        "Inst_GCVideo/Video_PixelCbCr_5" BEL "Inst_GCVideo/Video_PixelCbCr_4"
+        BEL "Inst_GCVideo/Video_PixelCbCr_3" BEL
+        "Inst_GCVideo/Video_PixelCbCr_2" BEL "Inst_GCVideo/Video_PixelCbCr_1"
+        BEL "Inst_GCVideo/Video_PixelCbCr_0" BEL "Inst_GCVideo/prev_csel" BEL
+        "Inst_GCVideo/current_flags_5" BEL "Inst_GCVideo/current_flags_4" BEL
+        "Inst_GCVideo/current_flags_1" BEL "Inst_GCVideo/current_flags_0" BEL
+        "Inst_GCVideo/current_cbcr_7" BEL "Inst_GCVideo/current_cbcr_6" BEL
+        "Inst_GCVideo/current_cbcr_5" BEL "Inst_GCVideo/current_cbcr_4" BEL
+        "Inst_GCVideo/current_cbcr_3" BEL "Inst_GCVideo/current_cbcr_2" BEL
+        "Inst_GCVideo/current_cbcr_1" BEL "Inst_GCVideo/current_cbcr_0" BEL
+        "Inst_422_to_444/Inst_HSyncDelay/Output" BEL
+        "Inst_422_to_444/Inst_BlankingDelay/Output" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_7" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_6" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_5" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_4" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_3" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_2" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_1" BEL
+        "Inst_422_to_444/VideoOut_PixelCr_0" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_7" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_6" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_5" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_4" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_3" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_2" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_1" BEL
+        "Inst_422_to_444/VideoOut_PixelCb_0" BEL "Inst_422_to_444/prev_cb_7"
+        BEL "Inst_422_to_444/prev_cb_6" BEL "Inst_422_to_444/prev_cb_5" BEL
+        "Inst_422_to_444/prev_cb_4" BEL "Inst_422_to_444/prev_cb_3" BEL
+        "Inst_422_to_444/prev_cb_2" BEL "Inst_422_to_444/prev_cb_1" BEL
+        "Inst_422_to_444/prev_cb_0" BEL "Inst_422_to_444/prev_cr_7" BEL
+        "Inst_422_to_444/prev_cr_6" BEL "Inst_422_to_444/prev_cr_5" BEL
+        "Inst_422_to_444/prev_cr_4" BEL "Inst_422_to_444/prev_cr_3" BEL
+        "Inst_422_to_444/prev_cr_2" BEL "Inst_422_to_444/prev_cr_1" BEL
+        "Inst_422_to_444/prev_cr_0" BEL "Inst_422_to_444/current_cb_7" BEL
+        "Inst_422_to_444/current_cb_6" BEL "Inst_422_to_444/current_cb_5" BEL
+        "Inst_422_to_444/current_cb_4" BEL "Inst_422_to_444/current_cb_3" BEL
+        "Inst_422_to_444/current_cb_2" BEL "Inst_422_to_444/current_cb_1" BEL
+        "Inst_422_to_444/current_cb_0" BEL "Inst_422_to_444/current_cr_7" BEL
+        "Inst_422_to_444/current_cr_6" BEL "Inst_422_to_444/current_cr_5" BEL
+        "Inst_422_to_444/current_cr_4" BEL "Inst_422_to_444/current_cr_3" BEL
+        "Inst_422_to_444/current_cr_2" BEL "Inst_422_to_444/current_cr_1" BEL
+        "Inst_422_to_444/current_cr_0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_7" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_6" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_5" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_4" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_3" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_2" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_1" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Output_0" BEL
+        "Inst_Reblanking/current_line_9" BEL "Inst_Reblanking/current_line_8"
+        BEL "Inst_Reblanking/current_line_7" BEL
+        "Inst_Reblanking/current_line_6" BEL "Inst_Reblanking/current_line_5"
+        BEL "Inst_Reblanking/current_line_4" BEL
+        "Inst_Reblanking/current_line_3" BEL "Inst_Reblanking/current_line_2"
+        BEL "Inst_Reblanking/current_line_1" BEL
+        "Inst_Reblanking/current_line_0" BEL "Inst_Reblanking/current_pixel_9"
+        BEL "Inst_Reblanking/current_pixel_8" BEL
+        "Inst_Reblanking/current_pixel_7" BEL
+        "Inst_Reblanking/current_pixel_6" BEL
+        "Inst_Reblanking/current_pixel_5" BEL
+        "Inst_Reblanking/current_pixel_4" BEL
+        "Inst_Reblanking/current_pixel_3" BEL
+        "Inst_Reblanking/current_pixel_2" BEL
+        "Inst_Reblanking/current_pixel_1" BEL
+        "Inst_Reblanking/current_pixel_0" BEL
+        "Inst_Reblanking/VideoOut_PixelY_7" BEL
+        "Inst_Reblanking/VideoOut_PixelY_6" BEL
+        "Inst_Reblanking/VideoOut_PixelY_5" BEL
+        "Inst_Reblanking/VideoOut_PixelY_4" BEL
+        "Inst_Reblanking/VideoOut_PixelY_3" BEL
+        "Inst_Reblanking/VideoOut_PixelY_2" BEL
+        "Inst_Reblanking/VideoOut_PixelY_1" BEL
+        "Inst_Reblanking/VideoOut_PixelY_0" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_7" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_6" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_5" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_4" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_3" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_2" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_1" BEL
+        "Inst_Reblanking/VideoOut_PixelCr_0" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_7" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_6" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_5" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_4" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_3" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_2" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_1" BEL
+        "Inst_Reblanking/VideoOut_PixelCb_0" BEL
+        "Inst_Reblanking/vert_active_end_4" BEL
+        "Inst_Reblanking/vert_active_start_5" BEL
+        "Inst_Reblanking/vert_active_start_2" BEL
+        "Inst_Reblanking/vert_active_start_1" BEL
+        "Inst_Reblanking/vert_active_start_0" BEL
+        "Inst_Reblanking/hblank_state" BEL "Inst_Reblanking/vblank_state" BEL
+        "Inst_Reblanking/prev_vsync" BEL "Inst_Reblanking/hor_active_end_3"
+        BEL "Inst_Reblanking/hor_active_end_1" BEL
+        "Inst_Reblanking/prev_hsync" BEL "Inst_Reblanking/seen_vsync" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_0" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_1" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_2" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_3" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_4" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_5" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_6" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_7" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_8" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_9" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_10" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_11" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_12" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_0" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_1" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_2" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_3" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_4" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_5" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_6" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_7" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_8" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_9" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_10" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_11" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_12" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_13" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_3_OUT" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_6_OUT" BEL
+        "Inst_yuv_to_rgb/Inst_BlankingDelay/Output" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_7" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_6" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_5" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_4" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_3" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_2" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_1" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelG_0" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_7" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_6" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_5" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_4" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_3" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_2" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_1" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelB_0" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_7" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_6" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_5" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_4" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_3" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_2" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_1" BEL
+        "Inst_yuv_to_rgb/VideoOut_PixelR_0" BEL "Inst_yuv_to_rgb/gsum_10" BEL
+        "Inst_yuv_to_rgb/gsum_9" BEL "Inst_yuv_to_rgb/gsum_8" BEL
+        "Inst_yuv_to_rgb/gsum_7" BEL "Inst_yuv_to_rgb/gsum_6" BEL
+        "Inst_yuv_to_rgb/gsum_5" BEL "Inst_yuv_to_rgb/gsum_4" BEL
+        "Inst_yuv_to_rgb/gsum_3" BEL "Inst_yuv_to_rgb/gsum_2" BEL
+        "Inst_yuv_to_rgb/gsum_1" BEL "Inst_yuv_to_rgb/gsum_0" BEL
+        "Inst_yuv_to_rgb/bout_7" BEL "Inst_yuv_to_rgb/bout_6" BEL
+        "Inst_yuv_to_rgb/bout_5" BEL "Inst_yuv_to_rgb/bout_4" BEL
+        "Inst_yuv_to_rgb/bout_3" BEL "Inst_yuv_to_rgb/bout_2" BEL
+        "Inst_yuv_to_rgb/bout_1" BEL "Inst_yuv_to_rgb/bout_0" BEL
+        "Inst_yuv_to_rgb/rout_7" BEL "Inst_yuv_to_rgb/rout_6" BEL
+        "Inst_yuv_to_rgb/rout_5" BEL "Inst_yuv_to_rgb/rout_4" BEL
+        "Inst_yuv_to_rgb/rout_3" BEL "Inst_yuv_to_rgb/rout_2" BEL
+        "Inst_yuv_to_rgb/rout_1" BEL "Inst_yuv_to_rgb/rout_0" BEL
+        "Inst_yuv_to_rgb/bsum_10" BEL "Inst_yuv_to_rgb/bsum_9" BEL
+        "Inst_yuv_to_rgb/bsum_8" BEL "Inst_yuv_to_rgb/bsum_7" BEL
+        "Inst_yuv_to_rgb/bsum_6" BEL "Inst_yuv_to_rgb/bsum_5" BEL
+        "Inst_yuv_to_rgb/bsum_4" BEL "Inst_yuv_to_rgb/bsum_3" BEL
+        "Inst_yuv_to_rgb/bsum_2" BEL "Inst_yuv_to_rgb/bsum_1" BEL
+        "Inst_yuv_to_rgb/bsum_0" BEL "Inst_yuv_to_rgb/rsum_10" BEL
+        "Inst_yuv_to_rgb/rsum_9" BEL "Inst_yuv_to_rgb/rsum_8" BEL
+        "Inst_yuv_to_rgb/rsum_7" BEL "Inst_yuv_to_rgb/rsum_6" BEL
+        "Inst_yuv_to_rgb/rsum_5" BEL "Inst_yuv_to_rgb/rsum_4" BEL
+        "Inst_yuv_to_rgb/rsum_3" BEL "Inst_yuv_to_rgb/rsum_2" BEL
+        "Inst_yuv_to_rgb/rsum_1" BEL "Inst_yuv_to_rgb/rsum_0" BEL
+        "Inst_yuv_to_rgb/gsumtemp_18" BEL "Inst_yuv_to_rgb/gsumtemp_17" BEL
+        "Inst_yuv_to_rgb/gsumtemp_16" BEL "Inst_yuv_to_rgb/gsumtemp_15" BEL
+        "Inst_yuv_to_rgb/gsumtemp_14" BEL "Inst_yuv_to_rgb/gsumtemp_13" BEL
+        "Inst_yuv_to_rgb/gsumtemp_12" BEL "Inst_yuv_to_rgb/gsumtemp_11" BEL
+        "Inst_yuv_to_rgb/gsumtemp_10" BEL "Inst_yuv_to_rgb/gsumtemp_9" BEL
+        "Inst_yuv_to_rgb/gsumtemp_8" BEL "Inst_yuv_to_rgb/gsumtemp_7" BEL
+        "Inst_yuv_to_rgb/gsumtemp_6" BEL "Inst_yuv_to_rgb/gsumtemp_5" BEL
+        "Inst_yuv_to_rgb/gsumtemp_4" BEL "Inst_yuv_to_rgb/gsumtemp_3" BEL
+        "Inst_yuv_to_rgb/gsumtemp_2" BEL "Inst_yuv_to_rgb/gsumtemp_1" BEL
+        "Inst_yuv_to_rgb/gsumtemp_0" BEL "Inst_yuv_to_rgb/ystore_18" BEL
+        "Inst_yuv_to_rgb/ystore_17" BEL "Inst_yuv_to_rgb/ystore_16" BEL
+        "Inst_yuv_to_rgb/ystore_15" BEL "Inst_yuv_to_rgb/ystore_14" BEL
+        "Inst_yuv_to_rgb/ystore_13" BEL "Inst_yuv_to_rgb/ystore_12" BEL
+        "Inst_yuv_to_rgb/ystore_11" BEL "Inst_yuv_to_rgb/ystore_10" BEL
+        "Inst_yuv_to_rgb/ystore_9" BEL "Inst_yuv_to_rgb/ystore_8" BEL
+        "Inst_yuv_to_rgb/ystore_7" BEL "Inst_yuv_to_rgb/ystore_6" BEL
+        "Inst_yuv_to_rgb/ystore_5" BEL "Inst_yuv_to_rgb/ystore_4" BEL
+        "Inst_yuv_to_rgb/ystore_3" BEL "Inst_yuv_to_rgb/ystore_2" BEL
+        "Inst_yuv_to_rgb/ystore_1" BEL "Inst_yuv_to_rgb/ystore_0" BEL
+        "Inst_DVI/sample_count_1" BEL "Inst_DVI/sample_count_0" BEL
+        "Inst_DVI/video_state_FSM_FFd1" BEL "Inst_DVI/video_state_FSM_FFd2"
+        BEL "Inst_DVI/ifr_addr_4" BEL "Inst_DVI/ifr_addr_3" BEL
+        "Inst_DVI/ifr_addr_2" BEL "Inst_DVI/ifr_addr_1" BEL
+        "Inst_DVI/ifr_addr_0" BEL "Inst_DVI/ifr_frame_1" BEL
+        "Inst_DVI/ifr_frame_0" BEL "Inst_DVI/audio_samples_sent_5" BEL
+        "Inst_DVI/audio_samples_sent_4" BEL "Inst_DVI/audio_samples_sent_3"
+        BEL "Inst_DVI/audio_samples_sent_2" BEL
+        "Inst_DVI/audio_samples_sent_1" BEL "Inst_DVI/audio_samples_sent_0"
+        BEL "Inst_DVI/per_frame_packets_2" BEL "Inst_DVI/per_frame_packets_1"
+        BEL "Inst_DVI/per_frame_packets_0" BEL "Inst_DVI/channel_bit_7" BEL
+        "Inst_DVI/channel_bit_6" BEL "Inst_DVI/channel_bit_5" BEL
+        "Inst_DVI/channel_bit_4" BEL "Inst_DVI/channel_bit_3" BEL
+        "Inst_DVI/channel_bit_2" BEL "Inst_DVI/channel_bit_1" BEL
+        "Inst_DVI/channel_bit_0" BEL "Inst_DVI/latched_blue_9" BEL
+        "Inst_DVI/latched_blue_8" BEL "Inst_DVI/latched_blue_7" BEL
+        "Inst_DVI/latched_blue_6" BEL "Inst_DVI/latched_blue_5" BEL
+        "Inst_DVI/latched_blue_4" BEL "Inst_DVI/latched_blue_3" BEL
+        "Inst_DVI/latched_blue_2" BEL "Inst_DVI/latched_blue_1" BEL
+        "Inst_DVI/latched_blue_0" BEL "Inst_DVI/latched_red_9" BEL
+        "Inst_DVI/latched_red_8" BEL "Inst_DVI/latched_red_7" BEL
+        "Inst_DVI/latched_red_6" BEL "Inst_DVI/latched_red_5" BEL
+        "Inst_DVI/latched_red_4" BEL "Inst_DVI/latched_red_3" BEL
+        "Inst_DVI/latched_red_2" BEL "Inst_DVI/latched_red_1" BEL
+        "Inst_DVI/latched_red_0" BEL "Inst_DVI/latched_green_9" BEL
+        "Inst_DVI/latched_green_8" BEL "Inst_DVI/latched_green_7" BEL
+        "Inst_DVI/latched_green_6" BEL "Inst_DVI/latched_green_5" BEL
+        "Inst_DVI/latched_green_4" BEL "Inst_DVI/latched_green_3" BEL
+        "Inst_DVI/latched_green_2" BEL "Inst_DVI/latched_green_1" BEL
+        "Inst_DVI/latched_green_0" BEL "Inst_DVI/subpacket4_odd_27" BEL
+        "Inst_DVI/subpacket4_odd_26" BEL "Inst_DVI/subpacket4_odd_25" BEL
+        "Inst_DVI/subpacket4_odd_24" BEL "Inst_DVI/subpacket4_odd_23" BEL
+        "Inst_DVI/subpacket4_odd_22" BEL "Inst_DVI/subpacket4_odd_21" BEL
+        "Inst_DVI/subpacket4_odd_20" BEL "Inst_DVI/subpacket4_odd_19" BEL
+        "Inst_DVI/subpacket4_odd_18" BEL "Inst_DVI/subpacket4_odd_17" BEL
+        "Inst_DVI/subpacket4_odd_16" BEL "Inst_DVI/subpacket4_odd_15" BEL
+        "Inst_DVI/subpacket4_odd_14" BEL "Inst_DVI/subpacket4_odd_13" BEL
+        "Inst_DVI/subpacket4_odd_12" BEL "Inst_DVI/subpacket4_odd_11" BEL
+        "Inst_DVI/subpacket4_odd_10" BEL "Inst_DVI/subpacket4_odd_9" BEL
+        "Inst_DVI/subpacket4_odd_8" BEL "Inst_DVI/subpacket4_odd_7" BEL
+        "Inst_DVI/subpacket4_odd_6" BEL "Inst_DVI/subpacket4_odd_5" BEL
+        "Inst_DVI/subpacket4_odd_4" BEL "Inst_DVI/subpacket4_odd_3" BEL
+        "Inst_DVI/subpacket4_odd_2" BEL "Inst_DVI/subpacket4_odd_1" BEL
+        "Inst_DVI/subpacket4_odd_0" BEL "Inst_DVI/subpacket3_odd_27" BEL
+        "Inst_DVI/subpacket3_odd_26" BEL "Inst_DVI/subpacket3_odd_25" BEL
+        "Inst_DVI/subpacket3_odd_24" BEL "Inst_DVI/subpacket3_odd_23" BEL
+        "Inst_DVI/subpacket3_odd_22" BEL "Inst_DVI/subpacket3_odd_21" BEL
+        "Inst_DVI/subpacket3_odd_20" BEL "Inst_DVI/subpacket3_odd_19" BEL
+        "Inst_DVI/subpacket3_odd_18" BEL "Inst_DVI/subpacket3_odd_17" BEL
+        "Inst_DVI/subpacket3_odd_16" BEL "Inst_DVI/subpacket3_odd_15" BEL
+        "Inst_DVI/subpacket3_odd_14" BEL "Inst_DVI/subpacket3_odd_13" BEL
+        "Inst_DVI/subpacket3_odd_12" BEL "Inst_DVI/subpacket3_odd_11" BEL
+        "Inst_DVI/subpacket3_odd_10" BEL "Inst_DVI/subpacket3_odd_9" BEL
+        "Inst_DVI/subpacket3_odd_8" BEL "Inst_DVI/subpacket3_odd_7" BEL
+        "Inst_DVI/subpacket3_odd_6" BEL "Inst_DVI/subpacket3_odd_5" BEL
+        "Inst_DVI/subpacket3_odd_4" BEL "Inst_DVI/subpacket3_odd_3" BEL
+        "Inst_DVI/subpacket3_odd_2" BEL "Inst_DVI/subpacket3_odd_1" BEL
+        "Inst_DVI/subpacket3_odd_0" BEL "Inst_DVI/subpacket3_even_27" BEL
+        "Inst_DVI/subpacket3_even_26" BEL "Inst_DVI/subpacket3_even_25" BEL
+        "Inst_DVI/subpacket3_even_24" BEL "Inst_DVI/subpacket3_even_23" BEL
+        "Inst_DVI/subpacket3_even_22" BEL "Inst_DVI/subpacket3_even_21" BEL
+        "Inst_DVI/subpacket3_even_20" BEL "Inst_DVI/subpacket3_even_19" BEL
+        "Inst_DVI/subpacket3_even_18" BEL "Inst_DVI/subpacket3_even_17" BEL
+        "Inst_DVI/subpacket3_even_16" BEL "Inst_DVI/subpacket3_even_15" BEL
+        "Inst_DVI/subpacket3_even_14" BEL "Inst_DVI/subpacket3_even_13" BEL
+        "Inst_DVI/subpacket3_even_12" BEL "Inst_DVI/subpacket3_even_11" BEL
+        "Inst_DVI/subpacket3_even_10" BEL "Inst_DVI/subpacket3_even_9" BEL
+        "Inst_DVI/subpacket3_even_8" BEL "Inst_DVI/subpacket3_even_7" BEL
+        "Inst_DVI/subpacket3_even_6" BEL "Inst_DVI/subpacket3_even_5" BEL
+        "Inst_DVI/subpacket3_even_4" BEL "Inst_DVI/subpacket3_even_3" BEL
+        "Inst_DVI/subpacket3_even_2" BEL "Inst_DVI/subpacket3_even_1" BEL
+        "Inst_DVI/subpacket3_even_0" BEL "Inst_DVI/subpacket4_even_27" BEL
+        "Inst_DVI/subpacket4_even_26" BEL "Inst_DVI/subpacket4_even_25" BEL
+        "Inst_DVI/subpacket4_even_24" BEL "Inst_DVI/subpacket4_even_23" BEL
+        "Inst_DVI/subpacket4_even_22" BEL "Inst_DVI/subpacket4_even_21" BEL
+        "Inst_DVI/subpacket4_even_20" BEL "Inst_DVI/subpacket4_even_19" BEL
+        "Inst_DVI/subpacket4_even_18" BEL "Inst_DVI/subpacket4_even_17" BEL
+        "Inst_DVI/subpacket4_even_16" BEL "Inst_DVI/subpacket4_even_15" BEL
+        "Inst_DVI/subpacket4_even_14" BEL "Inst_DVI/subpacket4_even_13" BEL
+        "Inst_DVI/subpacket4_even_12" BEL "Inst_DVI/subpacket4_even_11" BEL
+        "Inst_DVI/subpacket4_even_10" BEL "Inst_DVI/subpacket4_even_9" BEL
+        "Inst_DVI/subpacket4_even_8" BEL "Inst_DVI/subpacket4_even_7" BEL
+        "Inst_DVI/subpacket4_even_6" BEL "Inst_DVI/subpacket4_even_5" BEL
+        "Inst_DVI/subpacket4_even_4" BEL "Inst_DVI/subpacket4_even_3" BEL
+        "Inst_DVI/subpacket4_even_2" BEL "Inst_DVI/subpacket4_even_1" BEL
+        "Inst_DVI/subpacket4_even_0" BEL "Inst_DVI/subpacket2_even_27" BEL
+        "Inst_DVI/subpacket2_even_26" BEL "Inst_DVI/subpacket2_even_25" BEL
+        "Inst_DVI/subpacket2_even_24" BEL "Inst_DVI/subpacket2_even_23" BEL
+        "Inst_DVI/subpacket2_even_22" BEL "Inst_DVI/subpacket2_even_21" BEL
+        "Inst_DVI/subpacket2_even_20" BEL "Inst_DVI/subpacket2_even_19" BEL
+        "Inst_DVI/subpacket2_even_18" BEL "Inst_DVI/subpacket2_even_17" BEL
+        "Inst_DVI/subpacket2_even_16" BEL "Inst_DVI/subpacket2_even_15" BEL
+        "Inst_DVI/subpacket2_even_14" BEL "Inst_DVI/subpacket2_even_13" BEL
+        "Inst_DVI/subpacket2_even_12" BEL "Inst_DVI/subpacket2_even_11" BEL
+        "Inst_DVI/subpacket2_even_10" BEL "Inst_DVI/subpacket2_even_9" BEL
+        "Inst_DVI/subpacket2_even_8" BEL "Inst_DVI/subpacket2_even_7" BEL
+        "Inst_DVI/subpacket2_even_6" BEL "Inst_DVI/subpacket2_even_5" BEL
+        "Inst_DVI/subpacket2_even_4" BEL "Inst_DVI/subpacket2_even_3" BEL
+        "Inst_DVI/subpacket2_even_2" BEL "Inst_DVI/subpacket2_even_1" BEL
+        "Inst_DVI/subpacket2_even_0" BEL "Inst_DVI/subpacket1_odd_27" BEL
+        "Inst_DVI/subpacket1_odd_26" BEL "Inst_DVI/subpacket1_odd_25" BEL
+        "Inst_DVI/subpacket1_odd_24" BEL "Inst_DVI/subpacket1_odd_23" BEL
+        "Inst_DVI/subpacket1_odd_22" BEL "Inst_DVI/subpacket1_odd_21" BEL
+        "Inst_DVI/subpacket1_odd_20" BEL "Inst_DVI/subpacket1_odd_19" BEL
+        "Inst_DVI/subpacket1_odd_18" BEL "Inst_DVI/subpacket1_odd_17" BEL
+        "Inst_DVI/subpacket1_odd_16" BEL "Inst_DVI/subpacket1_odd_15" BEL
+        "Inst_DVI/subpacket1_odd_14" BEL "Inst_DVI/subpacket1_odd_13" BEL
+        "Inst_DVI/subpacket1_odd_12" BEL "Inst_DVI/subpacket1_odd_11" BEL
+        "Inst_DVI/subpacket1_odd_10" BEL "Inst_DVI/subpacket1_odd_9" BEL
+        "Inst_DVI/subpacket1_odd_8" BEL "Inst_DVI/subpacket1_odd_7" BEL
+        "Inst_DVI/subpacket1_odd_6" BEL "Inst_DVI/subpacket1_odd_5" BEL
+        "Inst_DVI/subpacket1_odd_4" BEL "Inst_DVI/subpacket1_odd_3" BEL
+        "Inst_DVI/subpacket1_odd_2" BEL "Inst_DVI/subpacket1_odd_1" BEL
+        "Inst_DVI/subpacket1_odd_0" BEL "Inst_DVI/subpacket2_odd_27" BEL
+        "Inst_DVI/subpacket2_odd_26" BEL "Inst_DVI/subpacket2_odd_25" BEL
+        "Inst_DVI/subpacket2_odd_24" BEL "Inst_DVI/subpacket2_odd_23" BEL
+        "Inst_DVI/subpacket2_odd_22" BEL "Inst_DVI/subpacket2_odd_21" BEL
+        "Inst_DVI/subpacket2_odd_20" BEL "Inst_DVI/subpacket2_odd_19" BEL
+        "Inst_DVI/subpacket2_odd_18" BEL "Inst_DVI/subpacket2_odd_17" BEL
+        "Inst_DVI/subpacket2_odd_16" BEL "Inst_DVI/subpacket2_odd_15" BEL
+        "Inst_DVI/subpacket2_odd_14" BEL "Inst_DVI/subpacket2_odd_13" BEL
+        "Inst_DVI/subpacket2_odd_12" BEL "Inst_DVI/subpacket2_odd_11" BEL
+        "Inst_DVI/subpacket2_odd_10" BEL "Inst_DVI/subpacket2_odd_9" BEL
+        "Inst_DVI/subpacket2_odd_8" BEL "Inst_DVI/subpacket2_odd_7" BEL
+        "Inst_DVI/subpacket2_odd_6" BEL "Inst_DVI/subpacket2_odd_5" BEL
+        "Inst_DVI/subpacket2_odd_4" BEL "Inst_DVI/subpacket2_odd_3" BEL
+        "Inst_DVI/subpacket2_odd_2" BEL "Inst_DVI/subpacket2_odd_1" BEL
+        "Inst_DVI/subpacket2_odd_0" BEL "Inst_DVI/subpacket1_even_27" BEL
+        "Inst_DVI/subpacket1_even_26" BEL "Inst_DVI/subpacket1_even_25" BEL
+        "Inst_DVI/subpacket1_even_24" BEL "Inst_DVI/subpacket1_even_23" BEL
+        "Inst_DVI/subpacket1_even_22" BEL "Inst_DVI/subpacket1_even_21" BEL
+        "Inst_DVI/subpacket1_even_20" BEL "Inst_DVI/subpacket1_even_19" BEL
+        "Inst_DVI/subpacket1_even_18" BEL "Inst_DVI/subpacket1_even_17" BEL
+        "Inst_DVI/subpacket1_even_16" BEL "Inst_DVI/subpacket1_even_15" BEL
+        "Inst_DVI/subpacket1_even_14" BEL "Inst_DVI/subpacket1_even_13" BEL
+        "Inst_DVI/subpacket1_even_12" BEL "Inst_DVI/subpacket1_even_11" BEL
+        "Inst_DVI/subpacket1_even_10" BEL "Inst_DVI/subpacket1_even_9" BEL
+        "Inst_DVI/subpacket1_even_8" BEL "Inst_DVI/subpacket1_even_7" BEL
+        "Inst_DVI/subpacket1_even_6" BEL "Inst_DVI/subpacket1_even_5" BEL
+        "Inst_DVI/subpacket1_even_4" BEL "Inst_DVI/subpacket1_even_3" BEL
+        "Inst_DVI/subpacket1_even_2" BEL "Inst_DVI/subpacket1_even_1" BEL
+        "Inst_DVI/subpacket1_even_0" BEL "Inst_DVI/packet_header_23" BEL
+        "Inst_DVI/packet_header_22" BEL "Inst_DVI/packet_header_21" BEL
+        "Inst_DVI/packet_header_20" BEL "Inst_DVI/packet_header_19" BEL
+        "Inst_DVI/packet_header_18" BEL "Inst_DVI/packet_header_17" BEL
+        "Inst_DVI/packet_header_16" BEL "Inst_DVI/packet_header_15" BEL
+        "Inst_DVI/packet_header_14" BEL "Inst_DVI/packet_header_13" BEL
+        "Inst_DVI/packet_header_12" BEL "Inst_DVI/packet_header_11" BEL
+        "Inst_DVI/packet_header_10" BEL "Inst_DVI/packet_header_9" BEL
+        "Inst_DVI/packet_header_8" BEL "Inst_DVI/packet_header_7" BEL
+        "Inst_DVI/packet_header_6" BEL "Inst_DVI/packet_header_5" BEL
+        "Inst_DVI/packet_header_4" BEL "Inst_DVI/packet_header_3" BEL
+        "Inst_DVI/packet_header_2" BEL "Inst_DVI/packet_header_1" BEL
+        "Inst_DVI/packet_header_0" BEL "Inst_DVI/ifr_select_2" BEL
+        "Inst_DVI/ifr_select_1" BEL "Inst_DVI/ifr_select_0" BEL
+        "Inst_DVI/seq_address_8" BEL "Inst_DVI/seq_address_7" BEL
+        "Inst_DVI/seq_address_6" BEL "Inst_DVI/seq_address_5" BEL
+        "Inst_DVI/seq_address_4" BEL "Inst_DVI/seq_address_3" BEL
+        "Inst_DVI/seq_address_2" BEL "Inst_DVI/seq_address_1" BEL
+        "Inst_DVI/seq_address_0" BEL "Inst_DVI/seq_start" BEL
+        "Inst_DVI/vsync_d" BEL "Inst_DVI/hsync_d" BEL "Inst_DVI/blank_d" BEL
+        "Inst_DVI/aux_ready" BEL "Inst_DVI/audio_needs_acr" BEL
+        "Inst_DVI/ifr_prevselect_2" BEL "Inst_DVI/ifr_prevselect_1" BEL
+        "Inst_DVI/ifr_prevselect_0" BEL "Inst_DVI/seq_active" BEL
+        "Inst_DVI/right_enable" BEL "Inst_DVI/left_enable" BEL
+        "Inst_DVI/left_en_sync_0" BEL "Inst_DVI/right_en_sync_0" BEL
+        "Inst_DVI/hsync_delay_0" BEL "Inst_DVI/hsync_delay_1" BEL
+        "Inst_DVI/vsync_delay_0" BEL "Inst_DVI/vsync_delay_1" BEL
+        "Inst_DVI/audio_sample_ready" BEL "Inst_DVI/right_buffer_15" BEL
+        "Inst_DVI/right_buffer_14" BEL "Inst_DVI/right_buffer_13" BEL
+        "Inst_DVI/right_buffer_12" BEL "Inst_DVI/right_buffer_11" BEL
+        "Inst_DVI/right_buffer_10" BEL "Inst_DVI/right_buffer_9" BEL
+        "Inst_DVI/right_buffer_8" BEL "Inst_DVI/right_buffer_7" BEL
+        "Inst_DVI/right_buffer_6" BEL "Inst_DVI/right_buffer_5" BEL
+        "Inst_DVI/right_buffer_4" BEL "Inst_DVI/right_buffer_3" BEL
+        "Inst_DVI/right_buffer_2" BEL "Inst_DVI/right_buffer_1" BEL
+        "Inst_DVI/right_buffer_0" BEL "Inst_DVI/left_buffer_15" BEL
+        "Inst_DVI/left_buffer_14" BEL "Inst_DVI/left_buffer_13" BEL
+        "Inst_DVI/left_buffer_12" BEL "Inst_DVI/left_buffer_11" BEL
+        "Inst_DVI/left_buffer_10" BEL "Inst_DVI/left_buffer_9" BEL
+        "Inst_DVI/left_buffer_8" BEL "Inst_DVI/left_buffer_7" BEL
+        "Inst_DVI/left_buffer_6" BEL "Inst_DVI/left_buffer_5" BEL
+        "Inst_DVI/left_buffer_4" BEL "Inst_DVI/left_buffer_3" BEL
+        "Inst_DVI/left_buffer_2" BEL "Inst_DVI/left_buffer_1" BEL
+        "Inst_DVI/left_buffer_0" BEL "Inst_DVI/TDMS_encoder_blue/dc_bias_3"
+        BEL "Inst_DVI/TDMS_encoder_blue/dc_bias_2" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_1" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_0" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_9" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_8" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_7" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_6" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_5" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_4" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_3" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_2" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_1" BEL
+        "Inst_DVI/TDMS_encoder_blue/encoded_0" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_3" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_2" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_1" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_0" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_9" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_8" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_7" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_6" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_5" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_4" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_3" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_2" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_1" BEL
+        "Inst_DVI/TDMS_encoder_green/encoded_0" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_3" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_2" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_1" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_0" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_9" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_8" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_7" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_6" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_5" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_4" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_3" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_2" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_1" BEL
+        "Inst_DVI/TDMS_encoder_red/encoded_0" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_9" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_8" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_7" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_6" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_5" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_4" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_3" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_2" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_1" BEL
+        "Inst_DVI/AUX_encoder_blue/EncData_0" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_9" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_8" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_7" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_6" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_5" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_4" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_3" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_2" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_1" BEL
+        "Inst_DVI/AUX_encoder_green/EncData_0" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_9" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_8" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_7" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_6" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_5" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_4" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_3" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_2" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_1" BEL
+        "Inst_DVI/AUX_encoder_red/EncData_0" BEL "Inst_DVI/ECC_header/DataOut"
+        BEL "Inst_DVI/ECC_header/reg_7" BEL "Inst_DVI/ECC_header/reg_6" BEL
+        "Inst_DVI/ECC_header/reg_5" BEL "Inst_DVI/ECC_subpacket4/DataOut_1"
+        BEL "Inst_DVI/ECC_subpacket4/DataOut_0" BEL
+        "Inst_DVI/ECC_subpacket4/reg_7" BEL "Inst_DVI/ECC_subpacket4/reg_6"
+        BEL "Inst_DVI/ECC_subpacket4/reg_5" BEL
+        "Inst_DVI/ECC_subpacket4/reg_4" BEL
+        "Inst_DVI/ECC_subpacket3/DataOut_1" BEL
+        "Inst_DVI/ECC_subpacket3/DataOut_0" BEL
+        "Inst_DVI/ECC_subpacket3/reg_7" BEL "Inst_DVI/ECC_subpacket3/reg_6"
+        BEL "Inst_DVI/ECC_subpacket3/reg_5" BEL
+        "Inst_DVI/ECC_subpacket3/reg_4" BEL
+        "Inst_DVI/ECC_subpacket2/DataOut_1" BEL
+        "Inst_DVI/ECC_subpacket2/DataOut_0" BEL
+        "Inst_DVI/ECC_subpacket2/reg_7" BEL "Inst_DVI/ECC_subpacket2/reg_6"
+        BEL "Inst_DVI/ECC_subpacket2/reg_5" BEL
+        "Inst_DVI/ECC_subpacket2/reg_4" BEL
+        "Inst_DVI/ECC_subpacket1/DataOut_1" BEL
+        "Inst_DVI/ECC_subpacket1/DataOut_0" BEL
+        "Inst_DVI/ECC_subpacket1/reg_7" BEL "Inst_DVI/ECC_subpacket1/reg_6"
+        BEL "Inst_DVI/ECC_subpacket1/reg_5" BEL
+        "Inst_DVI/ECC_subpacket1/reg_4" BEL "Inst_GCVideo/Video_HSync_BRB0"
+        BEL "Inst_422_to_444/Inst_VSyncDelay/Mshreg_Output" BEL
+        "Inst_422_to_444/Inst_VSyncDelay/Output" BEL
+        "Inst_422_to_444/Inst_BlankingDelay/Mshreg_delayline_2" BEL
+        "Inst_422_to_444/Inst_BlankingDelay/delayline_2" BEL
+        "Inst_DVI/Mshreg_blue_d_7" BEL "Inst_DVI/blue_d_7" BEL
+        "Inst_DVI/Mshreg_blue_d_6" BEL "Inst_DVI/blue_d_6" BEL
+        "Inst_DVI/Mshreg_blue_d_5" BEL "Inst_DVI/blue_d_5" BEL
+        "Inst_DVI/Mshreg_blue_d_4" BEL "Inst_DVI/blue_d_4" BEL
+        "Inst_DVI/Mshreg_blue_d_1" BEL "Inst_DVI/blue_d_1" BEL
+        "Inst_DVI/Mshreg_blue_d_3" BEL "Inst_DVI/blue_d_3" BEL
+        "Inst_DVI/Mshreg_blue_d_2" BEL "Inst_DVI/blue_d_2" BEL
+        "Inst_DVI/Mshreg_blue_d_0" BEL "Inst_DVI/blue_d_0" BEL
+        "Inst_DVI/Mshreg_red_d_7" BEL "Inst_DVI/red_d_7" BEL
+        "Inst_DVI/Mshreg_red_d_6" BEL "Inst_DVI/red_d_6" BEL
+        "Inst_DVI/Mshreg_red_d_5" BEL "Inst_DVI/red_d_5" BEL
+        "Inst_DVI/Mshreg_red_d_4" BEL "Inst_DVI/red_d_4" BEL
+        "Inst_DVI/Mshreg_red_d_3" BEL "Inst_DVI/red_d_3" BEL
+        "Inst_DVI/Mshreg_red_d_0" BEL "Inst_DVI/red_d_0" BEL
+        "Inst_DVI/Mshreg_red_d_2" BEL "Inst_DVI/red_d_2" BEL
+        "Inst_DVI/Mshreg_red_d_1" BEL "Inst_DVI/red_d_1" BEL
+        "Inst_DVI/Mshreg_green_d_7" BEL "Inst_DVI/green_d_7" BEL
+        "Inst_DVI/Mshreg_green_d_6" BEL "Inst_DVI/green_d_6" BEL
+        "Inst_DVI/Mshreg_green_d_5" BEL "Inst_DVI/green_d_5" BEL
+        "Inst_DVI/Mshreg_green_d_4" BEL "Inst_DVI/green_d_4" BEL
+        "Inst_DVI/Mshreg_green_d_3" BEL "Inst_DVI/green_d_3" BEL
+        "Inst_DVI/Mshreg_green_d_2" BEL "Inst_DVI/green_d_2" BEL
+        "Inst_DVI/Mshreg_channel_status_0_0" BEL
+        "Inst_DVI/left_buffer<9>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_1" BEL
+        "Inst_DVI/left_buffer<9>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_2" BEL
+        "Inst_DVI/right_buffer<10>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_3" BEL
+        "Inst_DVI/right_buffer<10>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_4" BEL
+        "Inst_DVI/right_buffer<0>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_5" BEL
+        "Inst_DVI/right_buffer<0>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_6" BEL
+        "Inst_DVI/left_buffer<7>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_7" BEL
+        "Inst_DVI/left_buffer<7>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_8" BEL
+        "Inst_DVI/right_buffer<12>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_9" BEL
+        "Inst_DVI/right_buffer<12>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_10" BEL
+        "Inst_DVI/channel_status<0>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_11" BEL "Inst_DVI/channel_status_0"
+        BEL "Inst_DVI/Mshreg_green_d_1" BEL "Inst_DVI/green_d_1" BEL
+        "Inst_DVI/Mshreg_green_d_0" BEL "Inst_DVI/green_d_0" BEL
+        "Inst_DVI/Mshreg_left_en_sync_1" BEL "Inst_DVI/left_en_sync_1" BEL
+        "Inst_DVI/Mshreg_right_en_sync_1" BEL "Inst_DVI/right_en_sync_1" BEL
+        "Inst_DVI/Mshreg_blank_delay_0" BEL "Inst_DVI/blank_delay_0" BEL
+        "Mshreg_VGA_VSync_BRB0" BEL "VGA_VSync_BRB0" BEL
+        "Mshreg_VGA_HSync_BRB0" BEL "VGA_HSync_BRB0" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_7_BRB0" BEL
+        "Inst_GCVideo/Video_PixelY_7_BRB0" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_4_BRB1" BEL
+        "Inst_GCVideo/Video_PixelY_4_BRB1" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_6_BRB0" BEL
+        "Inst_GCVideo/Video_PixelY_6_BRB0" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_5_BRB0" BEL
+        "Inst_GCVideo/Video_PixelY_5_BRB0" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_3_BRB0" BEL
+        "Inst_GCVideo/Video_PixelY_3_BRB0" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_2_BRB0" BEL
+        "Inst_GCVideo/Video_PixelY_2_BRB0" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_1_BRB0" BEL
+        "Inst_GCVideo/Video_PixelY_1_BRB0" BEL
+        "Inst_GCVideo/Mshreg_Video_PixelY_0_BRB0" BEL
+        "Inst_GCVideo/Video_PixelY_0_BRB0" BEL
+        "Inst_DVI/ECC_subpacket4/Mshreg_reg_3_BRB0" BEL
+        "Inst_DVI/ECC_subpacket4/reg_3_BRB0" BEL
+        "Inst_DVI/ECC_subpacket4/Mshreg_reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket4/reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket3/Mshreg_reg_3_BRB0" BEL
+        "Inst_DVI/ECC_subpacket3/reg_3_BRB0" BEL
+        "Inst_DVI/ECC_subpacket4/Mshreg_reg_3_BRB2" BEL
+        "Inst_DVI/ECC_subpacket4/reg_3_BRB2" BEL
+        "Inst_DVI/ECC_subpacket4/Mshreg_reg_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket4/reg_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket3/Mshreg_reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket3/reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket3/Mshreg_reg_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket3/reg_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket2/Mshreg_reg_3_BRB0" BEL
+        "Inst_DVI/ECC_subpacket2/reg_3_BRB0" BEL
+        "Inst_DVI/ECC_subpacket2/Mshreg_reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket2/reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket2/Mshreg_reg_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket2/reg_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket1/Mshreg_reg_3_BRB0" BEL
+        "Inst_DVI/ECC_subpacket1/reg_3_BRB0" BEL
+        "Inst_422_to_444/Inst_HSyncDelay/Mshreg_delayline_2_BRB0" BEL
+        "Inst_422_to_444/Inst_HSyncDelay/delayline_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket1/Mshreg_reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket1/reg_3_BRB1" BEL
+        "Inst_DVI/ECC_subpacket1/Mshreg_reg_2_BRB0" BEL
+        "Inst_DVI/ECC_subpacket1/reg_2_BRB0" BEL
+        "Inst_yuv_to_rgb/Inst_BlankingDelay/Mshreg_delayline_3_BRB0" BEL
+        "Inst_yuv_to_rgb/Inst_BlankingDelay/delayline_3_BRB0" BEL
+        "Inst_yuv_to_rgb/Inst_BlankingDelay/Mshreg_delayline_3_BRB1" BEL
+        "Inst_yuv_to_rgb/Inst_BlankingDelay/delayline_3_BRB1" BEL
+        "Inst_DVI/ECC_header/Mshreg_reg_4_BRB0" BEL
+        "Inst_DVI/ECC_header/reg_4_BRB0" BEL
+        "Inst_DVI/ECC_header/Mshreg_reg_4_BRB1" BEL
+        "Inst_DVI/ECC_header/reg_4_BRB1" BEL
+        "Inst_DVI/ECC_header/Mshreg_reg_4_BRB2" BEL
+        "Inst_DVI/ECC_header/reg_4_BRB2" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_7_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_7_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_6_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_6_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_5_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_5_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_4_BRB1" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_4_BRB1" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_3_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_3_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_2_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_2_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_1_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_1_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/Mshreg_delayline_2_0_BRB0" BEL
+        "Inst_422_to_444/Inst_LumaDelay/delayline_2_0_BRB0" BEL
+        "Inst_DVI/Mshreg_hsync_delay_2_BRB0" BEL "Inst_DVI/hsync_delay_2_BRB0"
+        BEL "Inst_DVI/Mshreg_vsync_delay_2_BRB0" BEL
+        "Inst_DVI/vsync_delay_2_BRB0" BEL "Inst_ClockGen/clk54_buf.GCLKMUX"
+        BEL "Inst_ClockGen/clk54_buf" PIN
+        "Inst_DVI/Inst_InfoFrameROM/Mram_Address[9]_GND_11_o_wide_mux_0_OUT_pins<11>"
+        PIN
+        "Inst_DVI/Inst_UCode/Mram_Address[8]_GND_10_o_wide_mux_4_OUT_pins<10>";
+TIMEGRP Inst_ClockGen_adcm_clkfx = BEL "Inst_Audio/clock_counter_4" BEL
+        "Inst_Audio/clock_counter_3" BEL "Inst_Audio/clock_counter_2" BEL
+        "Inst_Audio/clock_counter_1" BEL "Inst_Audio/clock_counter_0" BEL
+        "Inst_Audio/clocken_spdif" BEL "Inst_Audio/clock_counter_6" BEL
+        "Inst_Audio/clock_counter_5" BEL "Inst_Audio/Deglitch_AData/Output"
+        BEL "Inst_Audio/Deglitch_AData/syncer_4" BEL
+        "Inst_Audio/Deglitch_LRClock/Output" BEL
+        "Inst_Audio/Deglitch_LRClock/syncer_4" BEL
+        "Inst_Audio/Deglitch_BClock/Output" BEL
+        "Inst_Audio/Deglitch_BClock/syncer_4" BEL
+        "Inst_Audio/Inst_I2SDec/LeftEnable" BEL
+        "Inst_Audio/Inst_I2SDec/RightEnable" BEL
+        "Inst_Audio/Inst_I2SDec/Right_15" BEL
+        "Inst_Audio/Inst_I2SDec/Right_14" BEL
+        "Inst_Audio/Inst_I2SDec/Right_13" BEL
+        "Inst_Audio/Inst_I2SDec/Right_12" BEL
+        "Inst_Audio/Inst_I2SDec/Right_11" BEL
+        "Inst_Audio/Inst_I2SDec/Right_10" BEL "Inst_Audio/Inst_I2SDec/Right_9"
+        BEL "Inst_Audio/Inst_I2SDec/Right_8" BEL
+        "Inst_Audio/Inst_I2SDec/Right_7" BEL "Inst_Audio/Inst_I2SDec/Right_6"
+        BEL "Inst_Audio/Inst_I2SDec/Right_5" BEL
+        "Inst_Audio/Inst_I2SDec/Right_4" BEL "Inst_Audio/Inst_I2SDec/Right_3"
+        BEL "Inst_Audio/Inst_I2SDec/Right_2" BEL
+        "Inst_Audio/Inst_I2SDec/Right_1" BEL "Inst_Audio/Inst_I2SDec/Right_0"
+        BEL "Inst_Audio/Inst_I2SDec/Left_15" BEL
+        "Inst_Audio/Inst_I2SDec/Left_14" BEL "Inst_Audio/Inst_I2SDec/Left_13"
+        BEL "Inst_Audio/Inst_I2SDec/Left_12" BEL
+        "Inst_Audio/Inst_I2SDec/Left_11" BEL "Inst_Audio/Inst_I2SDec/Left_10"
+        BEL "Inst_Audio/Inst_I2SDec/Left_9" BEL
+        "Inst_Audio/Inst_I2SDec/Left_8" BEL "Inst_Audio/Inst_I2SDec/Left_7"
+        BEL "Inst_Audio/Inst_I2SDec/Left_6" BEL
+        "Inst_Audio/Inst_I2SDec/Left_5" BEL "Inst_Audio/Inst_I2SDec/Left_4"
+        BEL "Inst_Audio/Inst_I2SDec/Left_3" BEL
+        "Inst_Audio/Inst_I2SDec/Left_2" BEL "Inst_Audio/Inst_I2SDec/Left_1"
+        BEL "Inst_Audio/Inst_I2SDec/Left_0" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_15" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_14" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_13" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_12" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_11" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_10" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_9" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_8" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_7" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_6" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_5" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_4" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_3" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_2" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_1" BEL
+        "Inst_Audio/Inst_I2SDec/shifter_0" BEL
+        "Inst_Audio/Inst_I2SDec/prev_lrclk" BEL
+        "Inst_Audio/Inst_I2SDec/prev_bclk" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_bits_3" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_bits_2" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_bits_1" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_bits_0" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_7" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_6" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_5" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_4" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_3" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_2" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_1" BEL
+        "Inst_Audio/Inst_SPDIFEnc/subcode_bit_0" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shift_state_FSM_FFd1" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shift_state_FSM_FFd2" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shift_state_FSM_FFd3" BEL
+        "Inst_Audio/Inst_SPDIFEnc/spdif_out" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_15" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_14" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_13" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_12" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_11" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_10" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_9" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_8" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_7" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_6" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_5" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_4" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_3" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_2" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_1" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_0" BEL
+        "Inst_Audio/Inst_SPDIFEnc/parity" BEL
+        "Inst_Audio/Inst_SPDIFEnc/current_channel" BEL
+        "Inst_Audio/Inst_SPDIFEnc/bit_phase" BEL
+        "Inst_Audio/Inst_SPDIFEnc/channel_status" BEL
+        "Inst_Audio/clock_counter_10_BRB1" BEL
+        "Inst_Audio/clock_counter_10_BRB2" BEL
+        "Inst_Audio/clock_counter_9_BRB0" BEL
+        "Inst_Audio/clock_counter_9_BRB3" BEL
+        "Inst_Audio/clock_counter_8_BRB1" BEL
+        "Inst_Audio/clock_counter_7_BRB1" BEL
+        "Inst_Audio/clock_counter_7_BRB2" BEL
+        "Inst_Audio/clock_counter_10_BRB4" BEL
+        "Inst_Audio/clock_counter_10_BRB5" BEL
+        "Inst_Audio/clock_counter_10_BRB8" BEL
+        "Inst_Audio/clock_counter_9_BRB4" BEL
+        "Inst_Audio/clock_counter_9_BRB5" BEL
+        "Inst_Audio/clock_counter_9_BRB6" BEL
+        "Inst_Audio/Deglitch_BClock/Mshreg_syncer_3" BEL
+        "Inst_Audio/Deglitch_BClock/syncer_3" BEL
+        "Inst_Audio/Deglitch_AData/Mshreg_syncer_3" BEL
+        "Inst_Audio/Deglitch_AData/syncer_3" BEL
+        "Inst_Audio/Deglitch_LRClock/Mshreg_syncer_3" BEL
+        "Inst_Audio/Deglitch_LRClock/syncer_3" BEL
+        "Inst_ClockGen/clkaud_buf.GCLKMUX" BEL "Inst_ClockGen/clkaud_buf";
+PIN Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D1/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D1/FF0" PINNAME CK;
+PIN Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D0/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D0/FF0" PINNAME CK;
+PIN Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D1/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D1/FF0" PINNAME CK;
+PIN Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D0/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D0/FF0" PINNAME CK;
+PIN Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D1/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D1/FF0" PINNAME CK;
+PIN Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D0/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D0/FF0" PINNAME CK;
+PIN Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D1/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D1/FF0" PINNAME CK;
+PIN Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D0/FF0_pins<1> = BEL
+        "Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D0/FF0" PINNAME CK;
+TIMEGRP Inst_ClockGen_dcm_clkfx = BEL "Inst_DVI/shift_blue_1" BEL
+        "Inst_DVI/shift_blue_0" BEL "Inst_DVI/shift_green_1" BEL
+        "Inst_DVI/shift_green_0" BEL "Inst_DVI/shift_red_1" BEL
+        "Inst_DVI/shift_red_0" BEL "Inst_DVI/shift_clock_9" BEL
+        "Inst_DVI/shift_clock_8" BEL "Inst_DVI/shift_clock_7" BEL
+        "Inst_DVI/shift_clock_6" BEL "Inst_DVI/shift_clock_5" BEL
+        "Inst_DVI/shift_clock_4" BEL "Inst_DVI/shift_clock_3" BEL
+        "Inst_DVI/shift_clock_2" BEL "Inst_DVI/shift_clock_1" BEL
+        "Inst_DVI/shift_clock_0" BEL "Inst_DVI/shift_blue_9_BRB0" BEL
+        "Inst_DVI/shift_blue_9_BRB1" BEL "Inst_DVI/shift_blue_8_BRB1" BEL
+        "Inst_DVI/shift_green_9_BRB1" BEL "Inst_DVI/shift_green_8_BRB1" BEL
+        "Inst_DVI/shift_red_9_BRB1" BEL "Inst_DVI/shift_red_8_BRB1" BEL
+        "Inst_DVI/shift_blue_7_BRB1" BEL "Inst_DVI/shift_blue_7_BRB2" BEL
+        "Inst_DVI/shift_blue_6_BRB1" BEL "Inst_DVI/shift_blue_6_BRB2" BEL
+        "Inst_DVI/shift_blue_5_BRB1" BEL "Inst_DVI/shift_blue_5_BRB2" BEL
+        "Inst_DVI/shift_blue_4_BRB1" BEL "Inst_DVI/shift_blue_4_BRB2" BEL
+        "Inst_DVI/shift_blue_3_BRB1" BEL "Inst_DVI/shift_blue_3_BRB2" BEL
+        "Inst_DVI/shift_blue_2_BRB1" BEL "Inst_DVI/shift_blue_2_BRB2" BEL
+        "Inst_DVI/shift_green_7_BRB1" BEL "Inst_DVI/shift_green_7_BRB2" BEL
+        "Inst_DVI/shift_green_6_BRB1" BEL "Inst_DVI/shift_green_6_BRB2" BEL
+        "Inst_DVI/shift_green_5_BRB1" BEL "Inst_DVI/shift_green_5_BRB2" BEL
+        "Inst_DVI/shift_green_4_BRB1" BEL "Inst_DVI/shift_green_4_BRB2" BEL
+        "Inst_DVI/shift_green_3_BRB1" BEL "Inst_DVI/shift_green_3_BRB2" BEL
+        "Inst_DVI/shift_green_2_BRB1" BEL "Inst_DVI/shift_green_2_BRB2" BEL
+        "Inst_DVI/shift_red_7_BRB1" BEL "Inst_DVI/shift_red_7_BRB2" BEL
+        "Inst_DVI/shift_red_6_BRB1" BEL "Inst_DVI/shift_red_6_BRB2" BEL
+        "Inst_DVI/shift_red_5_BRB1" BEL "Inst_DVI/shift_red_5_BRB2" BEL
+        "Inst_DVI/shift_red_4_BRB1" BEL "Inst_DVI/shift_red_4_BRB2" BEL
+        "Inst_DVI/shift_red_3_BRB1" BEL "Inst_DVI/shift_red_3_BRB2" BEL
+        "Inst_DVI/shift_red_2_BRB1" BEL "Inst_DVI/shift_red_2_BRB2" PIN
+        "Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D1/FF0_pins<1>" PIN
+        "Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D0/FF0_pins<1>" PIN
+        "Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D1/FF0_pins<1>" PIN
+        "Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D0/FF0_pins<1>" PIN
+        "Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D1/FF0_pins<1>" PIN
+        "Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D0/FF0_pins<1>" PIN
+        "Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D1/FF0_pins<1>" PIN
+        "Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D0/FF0_pins<1>" BEL
+        "Inst_ClockGen/dviclkp_buf.GCLKMUX" BEL "Inst_ClockGen/dviclkp_buf";
+PIN Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D0/FF1_pins<1> = BEL
+        "Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D0/FF1" PINNAME CK;
+PIN Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D0/FF1_pins<1> = BEL
+        "Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D0/FF1" PINNAME CK;
+PIN Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D0/FF1_pins<1> = BEL
+        "Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D0/FF1" PINNAME CK;
+PIN Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D0/FF1_pins<1> = BEL
+        "Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D0/FF1" PINNAME CK;
+TIMEGRP Inst_ClockGen_dcm_clkfx180 = PIN
+        "Inst_DVI/ODDR2_clock/Inst_DVI/ODDR2_clock/ODDR2.C0D0/FF1_pins<1>" PIN
+        "Inst_DVI/ODDR2_blue/Inst_DVI/ODDR2_blue/ODDR2.C0D0/FF1_pins<1>" PIN
+        "Inst_DVI/ODDR2_green/Inst_DVI/ODDR2_green/ODDR2.C0D0/FF1_pins<1>" PIN
+        "Inst_DVI/ODDR2_red/Inst_DVI/ODDR2_red/ODDR2.C0D0/FF1_pins<1>" BEL
+        "Inst_ClockGen/dviclkn_buf.GCLKMUX" BEL "Inst_ClockGen/dviclkn_buf";
+PIN Inst_ClockGen/audio_dcm_sp_inst_pins<3> = BEL
+        "Inst_ClockGen/audio_dcm_sp_inst" PINNAME CLKIN;
+PIN Inst_ClockGen/video_dcm_sp_inst_pins<4> = BEL
+        "Inst_ClockGen/video_dcm_sp_inst" PINNAME CLKIN;
+TIMEGRP CLOCK_54 = PIN "Inst_ClockGen/audio_dcm_sp_inst_pins<3>" PIN
+        "Inst_ClockGen/video_dcm_sp_inst_pins<4>";
+TS_CLOCK_54 = PERIOD TIMEGRP "CLOCK_54" 54 MHz HIGH 50%;
+TS_Inst_ClockGen_adcm_clkfx = PERIOD TIMEGRP "Inst_ClockGen_adcm_clkfx"
+        TS_CLOCK_54 * 3 HIGH 50%;
+TS_Inst_ClockGen_dcm_clk2x = PERIOD TIMEGRP "Inst_ClockGen_dcm_clk2x"
+        TS_CLOCK_54 HIGH 50%;
+TS_Inst_ClockGen_dcm_clkfx = PERIOD TIMEGRP "Inst_ClockGen_dcm_clkfx"
+        TS_CLOCK_54 * 2.5 HIGH 50%;
+TS_Inst_ClockGen_dcm_clkfx180 = PERIOD TIMEGRP "Inst_ClockGen_dcm_clkfx180"
+        TS_CLOCK_54 * 2.5 PHASE 3.7037037 ns HIGH 50%;
+COMP "VData<7>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "VData<6>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "VData<5>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "VData<4>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "VData<3>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "VData<2>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "VData<1>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "VData<0>" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+COMP "CSel" OFFSET = IN 5 ns VALID 12 ns BEFORE COMP "VClockN" LOW;
+SCHEMATIC END;
+

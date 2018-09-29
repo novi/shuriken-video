@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLOCK_54</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLOCK_54</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">Inst_ClockGen/audio_dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Inst_ClockGen_adcm_clkfx = PERIOD &quot;Inst_ClockGen_adcm_clkfx&quot; TS_CLOCK_54 * 3 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLOCK_54</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLOCK_54</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">Inst_ClockGen/video_dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLK2X</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Inst_ClockGen_dcm_clk2x = PERIOD &quot;Inst_ClockGen_dcm_clk2x&quot; TS_CLOCK_54 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLOCK_54</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLOCK_54</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">Inst_ClockGen/video_dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Inst_ClockGen_dcm_clkfx = PERIOD &quot;Inst_ClockGen_dcm_clkfx&quot; TS_CLOCK_54 * 2.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CLOCK_54</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CLOCK_54</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">Inst_ClockGen/video_dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX180</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_Inst_ClockGen_dcm_clkfx180 = PERIOD &quot;Inst_ClockGen_dcm_clkfx180&quot; TS_CLOCK_54 * 2.5 PHASE 3.703703704 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="old" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">Inst_ClockGen/audio_dcm_sp_inst</arg> to <arg fmt="%s" index="4">18.518519</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC TS_CLOCK_54 = PERIOD &quot;CLOCK_54&quot; 54 MHz HIGH 50 %;&gt; [pindefs-p2xh.ucf(65)]</arg>).
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="old" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">Inst_ClockGen/video_dcm_sp_inst</arg> to <arg fmt="%s" index="4">18.518519</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC TS_CLOCK_54 = PERIOD &quot;CLOCK_54&quot; 54 MHz HIGH 50 %;&gt; [pindefs-p2xh.ucf(65)]</arg>).
+</msg>
+
+</messages>
+

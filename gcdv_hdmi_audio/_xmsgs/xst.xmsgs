@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 83: Using initial value <arg fmt="%s" index="1">(&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;1&apos;,&apos;0&apos;)</arg> for <arg fmt="%s" index="2">yscale</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 84: Using initial value <arg fmt="%s" index="1">(&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;)</arg> for <arg fmt="%s" index="2">yshift</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 85: Using initial value <arg fmt="%s" index="1">(&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;,&apos;1&apos;)</arg> for <arg fmt="%s" index="2">rscale</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 86: Using initial value <arg fmt="%s" index="1">(&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;1&apos;,&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;)</arg> for <arg fmt="%s" index="2">grscale</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 87: Using initial value <arg fmt="%s" index="1">(&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;)</arg> for <arg fmt="%s" index="2">gbscale</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 88: Using initial value <arg fmt="%s" index="1">(&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;0&apos;,&apos;1&apos;,&apos;0&apos;,&apos;1&apos;)</arg> for <arg fmt="%s" index="2">bscale</arg> since it is never assigned
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd</arg>&quot; line <arg fmt="%s" index="2">170</arg>: Output port &lt;<arg fmt="%s" index="3">Locked</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_ClockGen</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd</arg>&quot; line <arg fmt="%s" index="2">223</arg>: Output port &lt;<arg fmt="%s" index="3">VideoOut_CSync</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_yuv_to_rgb</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd</arg>&quot; line <arg fmt="%s" index="2">223</arg>: Output port &lt;<arg fmt="%s" index="3">VideoOut_IsEvenField</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_yuv_to_rgb</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Inst_CSyncDelay</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Inst_422_to_444</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Inst_FieldDelay</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Inst_422_to_444</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Inst_CSyncDelay</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">Inst_FieldDelay</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VideoOut_VSync</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_Reblanking</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_vsync&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_Reblanking</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hor_active_start_4&gt; &lt;hor_active_start_5&gt; &lt;hor_active_start_6&gt; &lt;hor_active_end_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_Reblanking</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hor_active_end_0&gt; &lt;hor_active_end_6&gt; &lt;hor_active_end_8&gt; &lt;hor_active_end_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_Reblanking</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hor_active_end_2&gt; &lt;hor_active_end_5&gt; &lt;hor_active_end_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_Reblanking</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hor_active_start_7&gt; &lt;hor_active_end_1&gt; &lt;hor_active_end_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">VideoOut_HSync</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_Reblanking</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;prev_hsync&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rsum_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rsum_11&gt; &lt;rsum_12&gt; &lt;rsum_13&gt; &lt;rsum_14&gt; &lt;rsum_15&gt; &lt;rsum_16&gt; &lt;rsum_17&gt; &lt;rsum_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">gtempr_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;gtempr_17&gt; &lt;gtempr_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rtemp_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rtemp_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">bsum_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;bsum_11&gt; &lt;bsum_12&gt; &lt;bsum_13&gt; &lt;bsum_14&gt; &lt;bsum_15&gt; &lt;bsum_16&gt; &lt;bsum_17&gt; &lt;bsum_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">gsum_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;gsum_11&gt; &lt;gsum_12&gt; &lt;gsum_13&gt; &lt;gsum_14&gt; &lt;gsum_15&gt; &lt;gsum_16&gt; &lt;gsum_17&gt; &lt;gsum_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">gtempb_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;gtempb_16&gt; &lt;gtempb_17&gt; &lt;gtempb_18&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Inst_Reblanking</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_Reblanking</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">current_flags_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_GCVideo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">current_flags_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_GCVideo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">current_flags_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_GCVideo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">current_flags_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_GCVideo</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_Data[3]_PWR_16_o_wide_mux_0_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_Enc_Mode</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_Address[8]_GND_10_o_wide_mux_4_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_Address[9]_GND_11_o_wide_mux_0_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">current_flags_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gcdv_decoder</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">current_flags_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">gcdv_decoder</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">hor_active_start_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_vsync</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VideoOut_VSync&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hor_active_start_3&gt; &lt;hor_active_start_4&gt; &lt;hor_active_start_5&gt; &lt;hor_active_start_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;hor_active_end_4&gt; &lt;hor_active_start_1&gt; &lt;hor_active_start_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_hsync</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;VideoOut_HSync&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">rsum_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">convert_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rsum_11&gt; &lt;rsum_12&gt; &lt;rsum_13&gt; &lt;rsum_14&gt; &lt;rsum_15&gt; &lt;rsum_16&gt; &lt;rsum_17&gt; &lt;rsum_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">bsum_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">convert_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;bsum_11&gt; &lt;bsum_12&gt; &lt;bsum_13&gt; &lt;bsum_14&gt; &lt;bsum_15&gt; &lt;bsum_16&gt; &lt;bsum_17&gt; &lt;bsum_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">gsum_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">convert_yuv_to_rgb</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;gsum_11&gt; &lt;gsum_12&gt; &lt;gsum_13&gt; &lt;gsum_14&gt; &lt;gsum_15&gt; &lt;gsum_16&gt; &lt;gsum_17&gt; &lt;gsum_18&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">vert_active_end_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Blanking_Regenerator_Fixed</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_yuv_to_rgb</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_yuv_to_rgb</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_yuv_to_rgb</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_yuv_to_rgb</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_yuv_to_rgb</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">convert_yuv_to_rgb</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vert_active_start_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vert_active_end_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">hor_active_end_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vert_active_end_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vert_active_start_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vert_active_start_3&gt; &lt;vert_active_end_0&gt; &lt;vert_active_end_3&gt; &lt;vert_active_end_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vert_active_start_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vert_active_start_4&gt; &lt;vert_active_end_1&gt; &lt;vert_active_end_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vert_active_start_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Blanking_Regenerator_Fixed</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vert_active_end_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_GCVideo/Video_IsEvenField</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_GCVideo/Video_CSync</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_GCVideo/current_flags_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_GCVideo/current_flags_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_CSyncDelay/delayline_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_CSyncDelay/delayline_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_CSyncDelay/delayline_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_CSyncDelay/Output</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_FieldDelay/delayline_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_FieldDelay/delayline_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_FieldDelay/delayline_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_FieldDelay/Output</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_Reblanking/VideoOut_IsEvenField</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_Reblanking/VideoOut_CSync</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_CSyncDelay/delayline_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_CSyncDelay/delayline_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_CSyncDelay/delayline_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_CSyncDelay/delayline_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_CSyncDelay/Output</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_FieldDelay/delayline_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_FieldDelay/delayline_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_FieldDelay/delayline_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_FieldDelay/delayline_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Inst_yuv_to_rgb/Inst_FieldDelay/Output</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_30khz</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_Reblanking/VideoOut_Is30kHz&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_progressive</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_Reblanking/VideoOut_IsProgressive&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_vsync</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_422_to_444/Inst_VSyncDelay/delayline_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">prev_pal</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_Reblanking/VideoOut_IsPAL&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2254" delta="old" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">toplevel_p2xh</arg>&gt;, final ratio is <arg fmt="%i" index="2">144</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_GCVideo/Video_Blanking</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_GCVideo/Video_PixelY_7_BRB1&gt; &lt;Inst_GCVideo/Video_PixelY_6_BRB1&gt; &lt;Inst_GCVideo/Video_PixelY_5_BRB1&gt; &lt;Inst_GCVideo/Video_PixelY_4_BRB0&gt; &lt;Inst_GCVideo/Video_PixelY_3_BRB1&gt; &lt;Inst_GCVideo/Video_PixelY_2_BRB1&gt; &lt;Inst_GCVideo/Video_PixelY_1_BRB1&gt; &lt;Inst_GCVideo/Video_PixelY_0_BRB1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_BlankingDelay/delayline_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_7_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_6_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_5_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_4_BRB0&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_3_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_2_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_1_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_0_0_BRB1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_BlankingDelay/delayline_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_7_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_6_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_5_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_4_BRB0&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_3_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_2_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_1_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_1_0_BRB1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_422_to_444/Inst_BlankingDelay/delayline_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">toplevel_p2xh</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_7_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_6_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_5_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_4_BRB0&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_3_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_2_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_1_BRB1&gt; &lt;Inst_422_to_444/Inst_LumaDelay/delayline_2_0_BRB1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+<msg type="warning" file="Xst" num="3152" delta="old" >You have chosen to run a version of XST which is not the default solution
+for the specified device family. You are free to use it in order to take
+advantage of its enhanced HDL parsing/elaboration capabilities. However,
+please be aware that you may be impacted by  language support differences.
+This version may also result in circuit performance and device utilization
+differences for your particular design. You can always revert back to the
+default XST solution by setting the &quot;use_new_parser&quot; option to value &quot;no&quot; 
+on the XST command line or in the XST process properties panel.
+</msg>
+
+</messages>
+
