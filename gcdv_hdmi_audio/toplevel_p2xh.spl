@@ -1,0 +1,15 @@
+[Inputs]
+VClockN
+CSel
+I2S_LRClock
+I2S_Data
+I2S_BClock
+=VData[7:0]=
+[Outputs]
+CableDetect
+SPDIF_Out
+=DVI_Clock[1:0]=
+=DVI_Red[1:0]=
+=DVI_Green[1:0]=
+=DVI_Blue[1:0]=
+[BiDir]

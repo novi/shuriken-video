@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.36 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.59 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.36 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.59 secs
  
 --> WARNING:Xst:1583 - You are using an internal switch '-use_new_parser'.
 WARNING:Xst:3152 - You have chosen to run a version of XST which is not the default solution
@@ -121,70 +121,70 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\video_defs.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\video_defs.vhd" into library work
 Parsing package <video_defs>.
 Parsing package body <video_defs>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\dvienc_defs.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\dvienc_defs.vhd" into library work
 Parsing package <dvienc_defs>.
 Parsing package body <dvienc_defs>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\TMDS_encoder.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\TMDS_encoder.vhd" into library work
 Parsing entity <TDMS_encoder>.
 Parsing architecture <Behavioral> of entity <tdms_encoder>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\SPDIF_Encoder.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\SPDIF_Encoder.vhd" into library work
 Parsing entity <SPDIF_Encoder>.
 Parsing architecture <Behavioral> of entity <spdif_encoder>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\infoframe_rom.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\infoframe_rom.vhd" into library work
 Parsing entity <infoframe_rom>.
 Parsing architecture <Behavioral> of entity <infoframe_rom>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\i2s_decoder.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\i2s_decoder.vhd" into library work
 Parsing entity <i2s_decoder>.
 Parsing architecture <Behavioral> of entity <i2s_decoder>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\edvi_ucode.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\edvi_ucode.vhd" into library work
 Parsing entity <edvi_ucode>.
 Parsing architecture <Behavioral> of entity <edvi_ucode>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\delayline_unsigned.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\delayline_unsigned.vhd" into library work
 Parsing entity <delayline_unsigned>.
 Parsing architecture <Behavioral> of entity <delayline_unsigned>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\delayline_bool.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\delayline_bool.vhd" into library work
 Parsing entity <delayline_bool>.
 Parsing architecture <Behavioral> of entity <delayline_bool>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\Deglitcher.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\Deglitcher.vhd" into library work
 Parsing entity <Deglitcher>.
 Parsing architecture <Behavioral> of entity <deglitcher>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\component_defs.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\component_defs.vhd" into library work
 Parsing package <component_defs>.
 Parsing package body <component_defs>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\aux_encoder.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\aux_encoder.vhd" into library work
 Parsing entity <aux_encoder>.
 Parsing architecture <Behavioral> of entity <aux_encoder>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\aux_ecc2.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\aux_ecc2.vhd" into library work
 Parsing entity <aux_ecc2>.
 Parsing architecture <Behavioral> of entity <aux_ecc2>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\aux_ecc1.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\aux_ecc1.vhd" into library work
 Parsing entity <aux_ecc1>.
 Parsing architecture <Behavioral> of entity <aux_ecc1>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\gcdv_decoder.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\gcdv_decoder.vhd" into library work
 Parsing entity <gcdv_decoder>.
 Parsing architecture <Behavioral> of entity <gcdv_decoder>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\dvid.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\dvid.vhd" into library work
 Parsing entity <dvid>.
 Parsing architecture <Behavioral> of entity <dvid>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" into library work
 Parsing entity <convert_yuv_to_rgb>.
 Parsing architecture <Behavioral> of entity <convert_yuv_to_rgb>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_422_to_444.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_422_to_444.vhd" into library work
 Parsing entity <convert_422_to_444>.
 Parsing architecture <Behavioral> of entity <convert_422_to_444>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\ClockGen.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\ClockGen.vhd" into library work
 Parsing entity <ClockGen>.
 Parsing architecture <Behavioral> of entity <clockgen>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\Blanking_Regenerator_Fixed.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\Blanking_Regenerator_Fixed.vhd" into library work
 Parsing entity <Blanking_Regenerator_Fixed>.
 Parsing architecture <Behavioral> of entity <blanking_regenerator_fixed>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\audio_spdif.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\audio_spdif.vhd" into library work
 Parsing entity <audio_spdif>.
 Parsing architecture <Behavioral> of entity <audio_spdif>.
-Parsing VHDL file "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd" into library work
+Parsing VHDL file "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\toplevel_p2xh.vhd" into library work
 Parsing entity <toplevel_p2xh>.
 Parsing architecture <Behavioral> of entity <toplevel_p2xh>.
 
@@ -197,9 +197,9 @@ Elaborating entity <toplevel_p2xh> (architecture <Behavioral>) from library <wor
 Elaborating entity <dvid> (architecture <Behavioral>) with generics from library <work>.
 
 Elaborating entity <edvi_ucode> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\edvi_ucode.vhd" Line 70. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\edvi_ucode.vhd" Line 80. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\edvi_ucode.vhd" Line 613. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\edvi_ucode.vhd" Line 70. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\edvi_ucode.vhd" Line 80. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\edvi_ucode.vhd" Line 613. Case statement is complete. others clause is never selected
 
 Elaborating entity <infoframe_rom> (architecture <Behavioral>) from library <work>.
 
@@ -232,12 +232,12 @@ Elaborating entity <delayline_bool> (architecture <Behavioral>) with generics fr
 Elaborating entity <Blanking_Regenerator_Fixed> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <convert_yuv_to_rgb> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 83: Using initial value ('0','0','1','0','0','1','0','1','0','1','0') for yscale since it is never assigned
-WARNING:HDLCompiler:871 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 84: Using initial value ('0','1','0','0','0','0') for yshift since it is never assigned
-WARNING:HDLCompiler:871 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 85: Using initial value ('0','0','1','1','0','0','1','1','0','0','1') for rscale since it is never assigned
-WARNING:HDLCompiler:871 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 86: Using initial value ('0','0','0','1','1','0','1','0','0','0','0') for grscale since it is never assigned
-WARNING:HDLCompiler:871 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 87: Using initial value ('0','0','0','0','1','1','0','0','1','0','0') for gbscale since it is never assigned
-WARNING:HDLCompiler:871 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 88: Using initial value ('0','1','0','0','0','0','0','0','1','0','1') for bscale since it is never assigned
+WARNING:HDLCompiler:871 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 83: Using initial value ('0','0','1','0','0','1','0','1','0','1','0') for yscale since it is never assigned
+WARNING:HDLCompiler:871 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 84: Using initial value ('0','1','0','0','0','0') for yshift since it is never assigned
+WARNING:HDLCompiler:871 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 85: Using initial value ('0','0','1','1','0','0','1','1','0','0','1') for rscale since it is never assigned
+WARNING:HDLCompiler:871 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 86: Using initial value ('0','0','0','1','1','0','1','0','0','0','0') for grscale since it is never assigned
+WARNING:HDLCompiler:871 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 87: Using initial value ('0','0','0','0','1','1','0','0','1','0','0') for gbscale since it is never assigned
+WARNING:HDLCompiler:871 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd" Line 88: Using initial value ('0','1','0','0','0','0','0','0','1','0','1') for bscale since it is never assigned
 
 Elaborating entity <delayline_bool> (architecture <Behavioral>) with generics from library <work>.
 
@@ -246,10 +246,10 @@ Elaborating entity <delayline_bool> (architecture <Behavioral>) with generics fr
 =========================================================================
 
 Synthesizing Unit <toplevel_p2xh>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd".
-INFO:Xst:3210 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd" line 170: Output port <Locked> of the instance <Inst_ClockGen> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd" line 223: Output port <VideoOut_CSync> of the instance <Inst_yuv_to_rgb> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd" line 223: Output port <VideoOut_IsEvenField> of the instance <Inst_yuv_to_rgb> is unconnected or connected to loadless signal.
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\toplevel_p2xh.vhd".
+INFO:Xst:3210 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\toplevel_p2xh.vhd" line 170: Output port <Locked> of the instance <Inst_ClockGen> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\toplevel_p2xh.vhd" line 223: Output port <VideoOut_CSync> of the instance <Inst_yuv_to_rgb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\toplevel_p2xh.vhd" line 223: Output port <VideoOut_IsEvenField> of the instance <Inst_yuv_to_rgb> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <prev_30khz>.
     Found 1-bit register for signal <prev_pal>.
     Found 1-bit register for signal <prev_progressive>.
@@ -269,7 +269,7 @@ INFO:Xst:3210 - "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.vhd" lin
 Unit <toplevel_p2xh> synthesized.
 
 Synthesizing Unit <dvid>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\dvid.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\dvid.vhd".
         Invert_Red = true
         Invert_Green = true
         Invert_Blue = true
@@ -388,7 +388,7 @@ Synthesizing Unit <dvid>.
 Unit <dvid> synthesized.
 
 Synthesizing Unit <edvi_ucode>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\edvi_ucode.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\edvi_ucode.vhd".
     Found 11-bit register for signal <data>.
     Found 4x2-bit Read Only RAM for signal <Enc_Mode>
     Found 512x11-bit Read Only RAM for signal <Address[8]_GND_10_o_wide_mux_4_OUT>
@@ -398,7 +398,7 @@ Synthesizing Unit <edvi_ucode>.
 Unit <edvi_ucode> synthesized.
 
 Synthesizing Unit <infoframe_rom>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\infoframe_rom.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\infoframe_rom.vhd".
     Found 9-bit register for signal <Data>.
     Found 1024x9-bit Read Only RAM for signal <Address[9]_GND_11_o_wide_mux_0_OUT>
     Summary:
@@ -407,7 +407,7 @@ Synthesizing Unit <infoframe_rom>.
 Unit <infoframe_rom> synthesized.
 
 Synthesizing Unit <TDMS_encoder>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\TMDS_encoder.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\TMDS_encoder.vhd".
     Found 4-bit register for signal <dc_bias>.
     Found 10-bit register for signal <encoded>.
     Found 4-bit adder for signal <n0154> created at line 56.
@@ -440,7 +440,7 @@ Synthesizing Unit <TDMS_encoder>.
 Unit <TDMS_encoder> synthesized.
 
 Synthesizing Unit <aux_encoder>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\aux_encoder.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\aux_encoder.vhd".
     Found 10-bit register for signal <EncData>.
     Found 16x10-bit Read Only RAM for signal <Data[3]_PWR_16_o_wide_mux_0_OUT>
     Summary:
@@ -449,7 +449,7 @@ Synthesizing Unit <aux_encoder>.
 Unit <aux_encoder> synthesized.
 
 Synthesizing Unit <aux_ecc1>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\aux_ecc1.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\aux_ecc1.vhd".
     Found 1-bit register for signal <DataOut>.
     Found 8-bit register for signal <reg>.
     Summary:
@@ -458,7 +458,7 @@ Synthesizing Unit <aux_ecc1>.
 Unit <aux_ecc1> synthesized.
 
 Synthesizing Unit <aux_ecc2>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\aux_ecc2.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\aux_ecc2.vhd".
     Found 2-bit register for signal <DataOut>.
     Found 8-bit register for signal <reg>.
     Summary:
@@ -467,13 +467,13 @@ Synthesizing Unit <aux_ecc2>.
 Unit <aux_ecc2> synthesized.
 
 Synthesizing Unit <ClockGen>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\ClockGen.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\ClockGen.vhd".
     Summary:
 	no macro.
 Unit <ClockGen> synthesized.
 
 Synthesizing Unit <audio_spdif>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\audio_spdif.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\audio_spdif.vhd".
     Set property "KEEP = TRUE" for signal <clocken_spdif>.
     Found 1-bit register for signal <clocken_spdif>.
     Found 11-bit register for signal <clock_counter>.
@@ -489,7 +489,7 @@ Synthesizing Unit <audio_spdif>.
 Unit <audio_spdif> synthesized.
 
 Synthesizing Unit <Deglitcher>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\Deglitcher.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\Deglitcher.vhd".
         SyncBits = 3
         CompareBits = 2
     Found 1-bit register for signal <Output>.
@@ -499,7 +499,7 @@ Synthesizing Unit <Deglitcher>.
 Unit <Deglitcher> synthesized.
 
 Synthesizing Unit <i2s_decoder>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\i2s_decoder.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\i2s_decoder.vhd".
     Found 1-bit register for signal <RightEnable>.
     Found 1-bit register for signal <prev_bclk>.
     Found 1-bit register for signal <prev_lrclk>.
@@ -513,7 +513,7 @@ Synthesizing Unit <i2s_decoder>.
 Unit <i2s_decoder> synthesized.
 
 Synthesizing Unit <SPDIF_Encoder>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\SPDIF_Encoder.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\SPDIF_Encoder.vhd".
     Found 16-bit register for signal <shifter>.
     Found 1-bit register for signal <bit_phase>.
     Found 1-bit register for signal <parity>.
@@ -548,7 +548,7 @@ Synthesizing Unit <SPDIF_Encoder>.
 Unit <SPDIF_Encoder> synthesized.
 
 Synthesizing Unit <gcdv_decoder>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\gcdv_decoder.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\gcdv_decoder.vhd".
     Found 8-bit register for signal <current_y>.
     Found 1-bit register for signal <in_blanking>.
     Found 2-bit register for signal <modecounter>.
@@ -578,7 +578,7 @@ Synthesizing Unit <gcdv_decoder>.
 Unit <gcdv_decoder> synthesized.
 
 Synthesizing Unit <convert_422_to_444>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_422_to_444.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_422_to_444.vhd".
     Found 8-bit register for signal <prev_cr>.
     Found 8-bit register for signal <prev_cb>.
     Found 8-bit register for signal <VideoOut_PixelCb>.
@@ -594,7 +594,7 @@ Synthesizing Unit <convert_422_to_444>.
 Unit <convert_422_to_444> synthesized.
 
 Synthesizing Unit <delayline_unsigned>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\delayline_unsigned.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\delayline_unsigned.vhd".
         Delayticks = 3
         Width = 8
     Found 8-bit register for signal <delayline<2>>.
@@ -606,7 +606,7 @@ Synthesizing Unit <delayline_unsigned>.
 Unit <delayline_unsigned> synthesized.
 
 Synthesizing Unit <delayline_bool_1>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\delayline_bool.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\delayline_bool.vhd".
         Delayticks = 3
     Found 3-bit register for signal <delayline>.
     Found 1-bit register for signal <Output>.
@@ -615,7 +615,7 @@ Synthesizing Unit <delayline_bool_1>.
 Unit <delayline_bool_1> synthesized.
 
 Synthesizing Unit <Blanking_Regenerator_Fixed>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\Blanking_Regenerator_Fixed.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\Blanking_Regenerator_Fixed.vhd".
     Found 8-bit register for signal <VideoOut_PixelCb>.
     Found 8-bit register for signal <VideoOut_PixelCr>.
     Found 1-bit register for signal <VideoOut_Blanking>.
@@ -652,7 +652,7 @@ Synthesizing Unit <Blanking_Regenerator_Fixed>.
 Unit <Blanking_Regenerator_Fixed> synthesized.
 
 Synthesizing Unit <convert_yuv_to_rgb>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\convert_yuv_to_rgb.vhd".
     Found 19-bit register for signal <rtemp>.
     Found 19-bit register for signal <gtempr>.
     Found 19-bit register for signal <gtempb>.
@@ -695,7 +695,7 @@ Synthesizing Unit <convert_yuv_to_rgb>.
 Unit <convert_yuv_to_rgb> synthesized.
 
 Synthesizing Unit <delayline_bool_2>.
-    Related source file is "C:\xilimux_projects\hdmi\gcdv_hdmi_audio\delayline_bool.vhd".
+    Related source file is "\\vmware-host\shared folders\tmp\shuriken-video\gcdv_hdmi_audio\delayline_bool.vhd".
         Delayticks = 4
     Found 4-bit register for signal <delayline>.
     Found 1-bit register for signal <Output>.
@@ -1564,8 +1564,8 @@ VClockN        |         |         |   17.713|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 48.00 secs
-Total CPU time to Xst completion: 47.56 secs
+Total REAL time to Xst completion: 21.00 secs
+Total CPU time to Xst completion: 20.74 secs
  
 WARNING:Xst:3152 - You have chosen to run a version of XST which is not the default solution
    for the specified device family. You are free to use it in order to take
@@ -1577,7 +1577,7 @@ WARNING:Xst:3152 - You have chosen to run a version of XST which is not the defa
    on the XST command line or in the XST process properties panel.
 --> 
 
-Total memory usage is 296864 kilobytes
+Total memory usage is 259600 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   63 (   0 filtered)

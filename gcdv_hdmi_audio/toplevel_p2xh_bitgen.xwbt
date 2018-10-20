@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.ncd
-OUTFILE=C:\xilimux_projects\hdmi\gcdv_hdmi_audio\toplevel_p2xh.bit
+INFILE=Z:\tmp\shuriken-video\gcdv_hdmi_audio\toplevel_p2xh.ncd
+OUTFILE=Z:\tmp\shuriken-video\gcdv_hdmi_audio\toplevel_p2xh.bit
 FAMILY=Spartan3A and Spartan3AN
 PART=xc3s50a-4vq100
-WORKINGDIR=C:\xilimux_projects\hdmi\gcdv_hdmi_audio
+WORKINGDIR=Z:\tmp\shuriken-video\gcdv_hdmi_audio
 LICENSE=WebPack
-USER_INFO=207362003_0_0_611
+USER_INFO=211617434_0_0_930

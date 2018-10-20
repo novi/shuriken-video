@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Mon Aug 31 23:13:36 2015">
+  <application stringID="par" timeStamp="Sat Oct 20 14:39:53 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Xilinx\14.4\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.4\ISE_DS\ISE\\bin\nt64;C:\Xilinx\Vivado_HLS\2012.4\bin;C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64;C:\Xilinx\14.4\ISE_DS\ISE\lib\nt64;C:\Xilinx\14.4\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\Vivado\2012.4\bin;C:\Xilinx\14.4\ISE_DS\PlanAhead\bin;C:\Xilinx\14.4\ISE_DS\EDK\bin\nt64;C:\Xilinx\14.4\ISE_DS\EDK\lib\nt64;C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\nt64\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Xilinx\14.4\ISE_DS\common\bin\nt64;C:\Xilinx\14.4\ISE_DS\common\lib\nt64;C:\Program Files\ImageMagick-6.9.0-Q16;c:\devkitPro\msys\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Windows Live\Shared;C:\DolphinSDK1.0\x86\bin;c:\devkitPro\devkitPPC\bin;C:\IBM\ppc-mc-iss\bin;C:\SysGCC\powerpc-eabi\bin;C:\OpenCV2.1\bin;C:\MinGW\bin;C:\Program Files\TortoiseSVN\bin"/>
+          <item stringID="value" value="C:\Xilinx\14.4\ISE_DS\ISE\\lib\nt64;C:\Xilinx\14.4\ISE_DS\ISE\\bin\nt64;C:\Xilinx\Vivado\2012.4\bin;C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64;C:\Xilinx\14.4\ISE_DS\ISE\lib\nt64;C:\Xilinx\14.4\ISE_DS\ISE\..\..\..\DocNav;C:\Xilinx\14.4\ISE_DS\PlanAhead\bin;C:\Xilinx\14.4\ISE_DS\EDK\bin\nt64;C:\Xilinx\14.4\ISE_DS\EDK\lib\nt64;C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\nt64\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnuwin\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\arm\nt\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Xilinx\14.4\ISE_DS\common\bin\nt64;C:\Xilinx\14.4\ISE_DS\common\lib\nt64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -43,13 +43,13 @@
         <item stringID="User_EnvOsname" value="Microsoft Windows 7 , 64-bit"/>
         <item stringID="User_EnvOsrelease" value="Service Pack 1  (build 7601)"/>
       </item>
-      <item stringID="User_EnvHost" value="steve-PC"/>
+      <item stringID="User_EnvHost" value="ito-macpro-vm"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="AMD Sempron(tm) 145 Processor"/>
-          <item stringID="speed" value="2812 MHz"/>
+          <item stringID="arch" value="Intel(R) Xeon(R) CPU E5-1650 v2 @ 3.50GHz"/>
+          <item stringID="speed" value="3499 MHz"/>
         </row>
       </table>
     </section>
@@ -69,12 +69,12 @@
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="12 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="10 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="7 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="7 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="13 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="11 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="8 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="8 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">
