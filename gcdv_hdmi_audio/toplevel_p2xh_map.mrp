@@ -3,31 +3,31 @@ Xilinx Mapping Report File for Design 'toplevel_p2xh'
 
 Design Information
 ------------------
-Command Line   : map -intstyle ise -p xc3s50a-vq100-4 -timing -logic_opt on -ol
+Command Line   : map -intstyle ise -p xc3s200a-vq100-4 -timing -logic_opt on -ol
 high -xe n -t 1 -register_duplication on -cm balanced -ir off
 -ignore_keep_hierarchy -pr b -power off -o toplevel_p2xh_map.ncd
 toplevel_p2xh.ngd toplevel_p2xh.pcf 
-Target Device  : xc3s50a
+Target Device  : xc3s200a
 Target Package : vq100
 Target Speed   : -4
 Mapper Version : spartan3a -- $Revision: 1.55 $
-Mapped Date    : Sat Oct 20 14:39:26 2018
+Mapped Date    : Sat Oct 20 14:44:00 2018
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:   19
 Logic Utilization:
-  Number of Slice Flip Flops:         1,024 out of   1,408   72%
-  Number of 4 input LUTs:             1,246 out of   1,408   88%
+  Number of Slice Flip Flops:         1,018 out of   3,584   28%
+  Number of 4 input LUTs:             1,180 out of   3,584   32%
 Logic Distribution:
-  Number of occupied Slices:            704 out of     704  100%
-    Number of Slices containing only related logic:     704 out of     704 100%
-    Number of Slices containing unrelated logic:          0 out of     704   0%
+  Number of occupied Slices:            988 out of   1,792   55%
+    Number of Slices containing only related logic:     988 out of     988 100%
+    Number of Slices containing unrelated logic:          0 out of     988   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:       1,315 out of   1,408   93%
-    Number used as logic:             1,163
-    Number used as a route-thru:         69
+  Total Number of 4 input LUTs:       1,247 out of   3,584   34%
+    Number used as logic:             1,097
+    Number used as a route-thru:         67
     Number used as Shift registers:      83
 
   The Slice Logic Distribution report is not meaningful if the design is
@@ -42,15 +42,15 @@ Logic Distribution:
     Number of DDR_ALIGNMENT = C0          4
     Number of DDR_ALIGNMENT = C1          0
   Number of BUFGMUXs:                     4 out of      24   16%
-  Number of DCMs:                         2 out of       2  100%
-  Number of MULT18X18SIOs:                3 out of       3  100%
-  Number of RAMB16BWEs:                   2 out of       3   66%
+  Number of DCMs:                         2 out of       4   50%
+  Number of MULT18X18SIOs:                5 out of      16   31%
+  Number of RAMB16BWEs:                   2 out of      16   12%
 
-Average Fanout of Non-Clock Nets:                3.28
+Average Fanout of Non-Clock Nets:                3.19
 
-Peak Memory Usage:  324 MB
-Total REAL time to MAP completion:  21 secs 
-Total CPU time to MAP completion:   20 secs 
+Peak Memory Usage:  331 MB
+Total REAL time to MAP completion:  23 secs 
+Total CPU time to MAP completion:   21 secs 
 
 Table of Contents
 -----------------

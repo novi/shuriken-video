@@ -1,0 +1,10 @@
+# PROMGEN: Xilinx Prom Generator P.49d
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.49d
+DATE            10/20/2018 - 14:48
+SOURCE          spi_flash.bin
+DEVICE          512K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+START_ADDRESS   0x00000000 END_ADDRESS 0x00024831 DIRECTION_UP   "toplevel_p2xh.bit" 3s200avq100

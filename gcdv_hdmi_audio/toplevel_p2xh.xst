@@ -6,7 +6,7 @@ run
 -ifmt mixed
 -ofn toplevel_p2xh
 -ofmt NGC
--p xc3s50a-4-vq100
+-p xc3s200a-4-vq100
 -top toplevel_p2xh
 -opt_mode Speed
 -opt_level 2

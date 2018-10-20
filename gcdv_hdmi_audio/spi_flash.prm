@@ -1,0 +1,14 @@
+PROMGEN: Xilinx Prom Generator P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -spi -p bin -o spi_flash.bin -s 512 -u 0 toplevel_p2xh.bit 
+
+PROM spi_flash.prm map: Sat Oct 20 14:48:22 2018
+
+Format        Bin
+Size          512K
+PROM start    00000000
+PROM end      0007ffff
+
+        Addr1        Addr2                     Date File(s)
+     00000000     00024831     Oct 20 14:44:58 2018 toplevel_p2xh.bit

@@ -1,7 +1,7 @@
 Release 14.4 - par P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Sat Oct 20 14:40:00 2018
+Sat Oct 20 14:44:38 2018
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -11,7 +11,7 @@ Sat Oct 20 14:40:00 2018
 #
 INPUT FILE:       toplevel_p2xh_map.ncd
 OUTPUT FILE:      toplevel_p2xh.pad
-PART TYPE:        xc3s50a
+PART TYPE:        xc3s200a
 SPEED GRADE:      -4
 PACKAGE:          vq100
 
@@ -47,12 +47,12 @@ P25||DIFFSTB|IO_L01N_2/M0|UNUSED||2|||||||||
 P26|||VCCO_2|||2|||||any******||||
 P27||DIFFSTB|IO_L02N_2/CSO_B|UNUSED||2|||||||||
 P28||DIFFMTB|IO_L03P_2/RDWR_B|UNUSED||2|||||||||
-P29||DIFFMTB|IO_L04P_2/VS2|UNUSED||2|||||||||
-P30||DIFFSTB|IO_L03N_2/VS1|UNUSED||2|||||||||
+P29||DIFFSTB|IO_L03N_2/VS2|UNUSED||2|||||||||
+P30||DIFFMTB|IO_L04P_2/VS1|UNUSED||2|||||||||
 P31||DIFFSTB|IO_L04N_2/VS0|UNUSED||2|||||||||
 P32||DIFFMTB|IO_L05P_2|UNUSED||2|||||||||
-P33||DIFFMTB|IO_L06P_2|UNUSED||2|||||||||
-P34||DIFFSTB|IO_L05N_2/D7|UNUSED||2|||||||||
+P33||DIFFSTB|IO_L05N_2|UNUSED||2|||||||||
+P34||DIFFMTB|IO_L06P_2/D7|UNUSED||2|||||||||
 P35||DIFFSTB|IO_L06N_2/D6|UNUSED||2|||||||||
 P36||DIFFMTB|IO_L07P_2/D5|UNUSED||2|||||||||
 P37||DIFFSTB|IO_L07N_2/D4|UNUSED||2|||||||||
@@ -64,13 +64,13 @@ P42|||GND||||||||||||
 P43|VClockN|IBUF|IO_L09P_2/GCLK0|INPUT|LVCMOS33|2||||IBUF||LOCATED|NO|NONE|
 P44||DIFFSTB|IO_L09N_2/GCLK1|UNUSED||2|||||||||
 P45|||VCCO_2|||2|||||any******||||
-P46||DIFFMTB|IO_2/MOSI/CSI_B|UNUSED||2|||||||||
+P46||DIFFSTB|IO_2/MOSI/CSI_B|UNUSED||2|||||||||
 P47|||GND||||||||||||
 P48||DIFFMTB|IO_L10P_2/INIT_B|UNUSED||2|||||||||
 P49||DIFFSTB|IO_L10N_2/D3|UNUSED||2|||||||||
 P50||DIFFMTB|IO_L11P_2/D2|UNUSED||2|||||||||
-P51||DIFFSTB|IO_L11N_2/D0/DIN/MISO|UNUSED||2|||||||||
-P52||DIFFMTB|IO_L12P_2/D1|UNUSED||2|||||||||
+P51||DIFFMTB|IO_L12P_2/D0/DIN/MISO|UNUSED||2|||||||||
+P52||DIFFSTB|IO_L11N_2/D1|UNUSED||2|||||||||
 P53||DIFFSTB|IO_L12N_2/CCLK|UNUSED||2|||||||||
 P54|||DONE||||||||||||
 P55|||VCCAUX||||||||2.5||||

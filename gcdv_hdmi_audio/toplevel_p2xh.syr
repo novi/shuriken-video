@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.59 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.62 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.59 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.64 secs
  
 --> WARNING:Xst:1583 - You are using an internal switch '-use_new_parser'.
 WARNING:Xst:3152 - You have chosen to run a version of XST which is not the default solution
@@ -56,7 +56,7 @@ Ignore Synthesis Constraint File   : NO
 ---- Target Parameters
 Output File Name                   : "toplevel_p2xh"
 Output Format                      : NGC
-Target Device                      : xc3s50a-4-vq100
+Target Device                      : xc3s200a-4-vq100
 
 ---- Source Options
 Use New Parser                     : YES
@@ -1041,12 +1041,6 @@ Optimizing FSM <Inst_DVI/FSM_0> on signal <video_state[1:2]> with user encoding.
  vs_blanking   | 11
 ---------------------------
 WARNING:Xst:1293 - FF/Latch <vert_active_end_7> has a constant value of 0 in block <Blanking_Regenerator_Fixed>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_15> (without init value) has a constant value of 0 in block <convert_yuv_to_rgb>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_14> (without init value) has a constant value of 0 in block <convert_yuv_to_rgb>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_16> (without init value) has a constant value of 0 in block <convert_yuv_to_rgb>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_15> (without init value) has a constant value of 0 in block <convert_yuv_to_rgb>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_14> (without init value) has a constant value of 0 in block <convert_yuv_to_rgb>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_13> (without init value) has a constant value of 0 in block <convert_yuv_to_rgb>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <vert_active_start_5> in Unit <Blanking_Regenerator_Fixed> is equivalent to the following FF/Latch, which will be removed : <vert_active_end_9> 
 INFO:Xst:2261 - The FF/Latch <hor_active_end_1> in Unit <Blanking_Regenerator_Fixed> is equivalent to the following FF/Latch, which will be removed : <vert_active_end_5> 
 INFO:Xst:2261 - The FF/Latch <vert_active_start_0> in Unit <Blanking_Regenerator_Fixed> is equivalent to the following 4 FFs/Latches, which will be removed : <vert_active_start_3> <vert_active_end_0> <vert_active_end_3> <vert_active_end_6> 
@@ -1115,9 +1109,7 @@ INFO:Xst:2261 - The FF/Latch <prev_30khz> in Unit <toplevel_p2xh> is equivalent 
 INFO:Xst:2261 - The FF/Latch <prev_progressive> in Unit <toplevel_p2xh> is equivalent to the following FF/Latch, which will be removed : <Inst_Reblanking/VideoOut_IsProgressive> 
 INFO:Xst:2261 - The FF/Latch <prev_vsync> in Unit <toplevel_p2xh> is equivalent to the following FF/Latch, which will be removed : <Inst_422_to_444/Inst_VSyncDelay/delayline_0> 
 INFO:Xst:2261 - The FF/Latch <prev_pal> in Unit <toplevel_p2xh> is equivalent to the following FF/Latch, which will be removed : <Inst_Reblanking/VideoOut_IsPAL> 
-Found area constraint ratio of 100 (+ 5) on block toplevel_p2xh, actual ratio is 162.
-Optimizing block <toplevel_p2xh> to meet ratio 100 (+ 5) of 704 slices :
-WARNING:Xst:2254 - Area constraint could not be met for block <toplevel_p2xh>, final ratio is 144.
+Found area constraint ratio of 100 (+ 5) on block toplevel_p2xh, actual ratio is 61.
 INFO:Xst:2261 - The FF/Latch <Inst_GCVideo/Video_Blanking> in Unit <toplevel_p2xh> is equivalent to the following 8 FFs/Latches, which will be removed : <Inst_GCVideo/Video_PixelY_7_BRB1> <Inst_GCVideo/Video_PixelY_6_BRB1> <Inst_GCVideo/Video_PixelY_5_BRB1> <Inst_GCVideo/Video_PixelY_4_BRB0> <Inst_GCVideo/Video_PixelY_3_BRB1> <Inst_GCVideo/Video_PixelY_2_BRB1> <Inst_GCVideo/Video_PixelY_1_BRB1> <Inst_GCVideo/Video_PixelY_0_BRB1> 
 INFO:Xst:2261 - The FF/Latch <Inst_422_to_444/Inst_BlankingDelay/delayline_0> in Unit <toplevel_p2xh> is equivalent to the following 8 FFs/Latches, which will be removed : <Inst_422_to_444/Inst_LumaDelay/delayline_0_7_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_0_6_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_0_5_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_0_4_BRB0> <Inst_422_to_444/Inst_LumaDelay/delayline_0_3_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_0_2_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_0_1_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_0_0_BRB1> 
 INFO:Xst:2261 - The FF/Latch <Inst_422_to_444/Inst_BlankingDelay/delayline_1> in Unit <toplevel_p2xh> is equivalent to the following 8 FFs/Latches, which will be removed : <Inst_422_to_444/Inst_LumaDelay/delayline_1_7_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_1_6_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_1_5_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_1_4_BRB0> <Inst_422_to_444/Inst_LumaDelay/delayline_1_3_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_1_2_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_1_1_BRB1> <Inst_422_to_444/Inst_LumaDelay/delayline_1_0_BRB1> 
@@ -1153,10 +1145,13 @@ Processing Unit <toplevel_p2xh> :
 	Register(s) Inst_422_to_444/Inst_LumaDelay/delayline_2_5 has(ve) been backward balanced into : Inst_422_to_444/Inst_LumaDelay/delayline_2_5_BRB0 .
 	Register(s) Inst_422_to_444/Inst_LumaDelay/delayline_2_6 has(ve) been backward balanced into : Inst_422_to_444/Inst_LumaDelay/delayline_2_6_BRB0 .
 	Register(s) Inst_422_to_444/Inst_LumaDelay/delayline_2_7 has(ve) been backward balanced into : Inst_422_to_444/Inst_LumaDelay/delayline_2_7_BRB0 .
-	Register(s) Inst_Audio/clock_counter_10 has(ve) been backward balanced into : Inst_Audio/clock_counter_10_BRB1 Inst_Audio/clock_counter_10_BRB2 Inst_Audio/clock_counter_10_BRB4 Inst_Audio/clock_counter_10_BRB5 Inst_Audio/clock_counter_10_BRB8 .
-	Register(s) Inst_Audio/clock_counter_7 has(ve) been backward balanced into : Inst_Audio/clock_counter_7_BRB1 Inst_Audio/clock_counter_7_BRB2.
-	Register(s) Inst_Audio/clock_counter_8 has(ve) been backward balanced into : Inst_Audio/clock_counter_8_BRB1 .
-	Register(s) Inst_Audio/clock_counter_9 has(ve) been backward balanced into : Inst_Audio/clock_counter_9_BRB0 Inst_Audio/clock_counter_9_BRB3 Inst_Audio/clock_counter_9_BRB4 Inst_Audio/clock_counter_9_BRB5 Inst_Audio/clock_counter_9_BRB6.
+	Register(s) Inst_Audio/Inst_SPDIFEnc/shifter_6 has(ve) been backward balanced into : Inst_Audio/Inst_SPDIFEnc/shifter_6_BRB0 Inst_Audio/Inst_SPDIFEnc/shifter_6_BRB1 Inst_Audio/Inst_SPDIFEnc/shifter_6_BRB2.
+	Register(s) Inst_Audio/Inst_SPDIFEnc/shifter_7 has(ve) been backward balanced into : Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB0 Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB1 Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB2 Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB3.
+	Register(s) Inst_Audio/Inst_SPDIFEnc/shifter_8 has(ve) been backward balanced into : Inst_Audio/Inst_SPDIFEnc/shifter_8_BRB0 Inst_Audio/Inst_SPDIFEnc/shifter_8_BRB1 Inst_Audio/Inst_SPDIFEnc/shifter_8_BRB2.
+	Register(s) Inst_Audio/clock_counter_10 has(ve) been backward balanced into : Inst_Audio/clock_counter_10_BRB1 Inst_Audio/clock_counter_10_BRB2 Inst_Audio/clock_counter_10_BRB3 Inst_Audio/clock_counter_10_BRB4 Inst_Audio/clock_counter_10_BRB5 Inst_Audio/clock_counter_10_BRB7.
+	Register(s) Inst_Audio/clock_counter_7 has(ve) been backward balanced into : Inst_Audio/clock_counter_7_BRB1 Inst_Audio/clock_counter_7_BRB2 Inst_Audio/clock_counter_7_BRB3.
+	Register(s) Inst_Audio/clock_counter_8 has(ve) been backward balanced into : Inst_Audio/clock_counter_8_BRB1 Inst_Audio/clock_counter_8_BRB3.
+	Register(s) Inst_Audio/clock_counter_9 has(ve) been backward balanced into : Inst_Audio/clock_counter_9_BRB0 Inst_Audio/clock_counter_9_BRB3 Inst_Audio/clock_counter_9_BRB5 Inst_Audio/clock_counter_9_BRB6.
 	Register(s) Inst_DVI/ECC_header/reg_0 has(ve) been backward balanced into : Inst_DVI/ECC_header/reg_0_BRB0 Inst_DVI/ECC_header/reg_0_BRB1 Inst_DVI/ECC_header/reg_0_BRB2.
 	Register(s) Inst_DVI/ECC_header/reg_1 has(ve) been backward balanced into : Inst_DVI/ECC_header/reg_1_BRB0 Inst_DVI/ECC_header/reg_1_BRB1 Inst_DVI/ECC_header/reg_1_BRB2.
 	Register(s) Inst_DVI/ECC_header/reg_2 has(ve) been backward balanced into : Inst_DVI/ECC_header/reg_2_BRB0 Inst_DVI/ECC_header/reg_2_BRB1 Inst_DVI/ECC_header/reg_2_BRB2.
@@ -1178,6 +1173,12 @@ Processing Unit <toplevel_p2xh> :
 	Register(s) Inst_DVI/ECC_subpacket4/reg_1 has(ve) been backward balanced into : Inst_DVI/ECC_subpacket4/reg_1_BRB0 Inst_DVI/ECC_subpacket4/reg_1_BRB1 Inst_DVI/ECC_subpacket4/reg_1_BRB2.
 	Register(s) Inst_DVI/ECC_subpacket4/reg_2 has(ve) been backward balanced into : Inst_DVI/ECC_subpacket4/reg_2_BRB0 .
 	Register(s) Inst_DVI/ECC_subpacket4/reg_3 has(ve) been backward balanced into : Inst_DVI/ECC_subpacket4/reg_3_BRB0 Inst_DVI/ECC_subpacket4/reg_3_BRB1 Inst_DVI/ECC_subpacket4/reg_3_BRB2.
+	Register(s) Inst_DVI/TDMS_encoder_blue/dc_bias_2 has(ve) been backward balanced into : Inst_DVI/TDMS_encoder_blue/dc_bias_2_BRB0 Inst_DVI/TDMS_encoder_blue/dc_bias_2_BRB1.
+	Register(s) Inst_DVI/TDMS_encoder_blue/dc_bias_3 has(ve) been backward balanced into : Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB0 Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB1 Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB2 Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB3.
+	Register(s) Inst_DVI/TDMS_encoder_green/dc_bias_2 has(ve) been backward balanced into : Inst_DVI/TDMS_encoder_green/dc_bias_2_BRB0 Inst_DVI/TDMS_encoder_green/dc_bias_2_BRB1.
+	Register(s) Inst_DVI/TDMS_encoder_green/dc_bias_3 has(ve) been backward balanced into : Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB0 Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB1 Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB2 Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB3.
+	Register(s) Inst_DVI/TDMS_encoder_red/dc_bias_2 has(ve) been backward balanced into : Inst_DVI/TDMS_encoder_red/dc_bias_2_BRB0 Inst_DVI/TDMS_encoder_red/dc_bias_2_BRB1.
+	Register(s) Inst_DVI/TDMS_encoder_red/dc_bias_3 has(ve) been backward balanced into : Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB0 Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB1 Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB2 Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB3.
 	Register(s) Inst_DVI/hsync_delay_10 has(ve) been backward balanced into : Inst_DVI/hsync_delay_10_BRB0.
 	Register(s) Inst_DVI/hsync_delay_2 has(ve) been backward balanced into : Inst_DVI/hsync_delay_2_BRB0.
 	Register(s) Inst_DVI/hsync_delay_3 has(ve) been backward balanced into : Inst_DVI/hsync_delay_3_BRB0.
@@ -1319,8 +1320,8 @@ Unit <toplevel_p2xh> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 961
- Flip-Flops                                            : 961
+# Registers                                            : 955
+ Flip-Flops                                            : 955
 # Shift Registers                                      : 72
  11-bit shift register                                 : 1
  12-bit shift register                                 : 24
@@ -1353,34 +1354,31 @@ Top Level Output File Name         : toplevel_p2xh.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1696
+# BELS                             : 1585
 #      GND                         : 1
-#      INV                         : 57
+#      INV                         : 48
 #      LUT1                        : 65
-#      LUT2                        : 250
-#      LUT2_D                      : 6
-#      LUT2_L                      : 1
-#      LUT3                        : 323
-#      LUT3_D                      : 10
+#      LUT2                        : 252
+#      LUT2_D                      : 12
+#      LUT2_L                      : 4
+#      LUT3                        : 332
+#      LUT3_D                      : 16
 #      LUT3_L                      : 4
-#      LUT4                        : 442
-#      LUT4_D                      : 58
-#      LUT4_L                      : 32
-#      MULT_AND                    : 2
-#      MUXCY                       : 194
-#      MUXF5                       : 44
-#      MUXF6                       : 3
-#      MUXF7                       : 1
+#      LUT4                        : 395
+#      LUT4_D                      : 26
+#      LUT4_L                      : 34
+#      MUXCY                       : 176
+#      MUXF5                       : 37
 #      VCC                         : 1
-#      XORCY                       : 202
-# FlipFlops/Latches                : 1037
-#      FD                          : 79
-#      FDE                         : 602
+#      XORCY                       : 182
+# FlipFlops/Latches                : 1031
+#      FD                          : 81
+#      FDE                         : 588
 #      FDR                         : 6
-#      FDRE                        : 313
+#      FDRE                        : 316
 #      FDRS                        : 2
 #      FDRSE                       : 27
-#      FDSE                        : 4
+#      FDSE                        : 7
 #      ODDR2                       : 4
 # RAMS                             : 2
 #      RAMB16BWE                   : 2
@@ -1396,27 +1394,25 @@ Primitive and Black Box Usage:
 #      OBUFTDS                     : 4
 # DCMs                             : 2
 #      DCM_SP                      : 2
-# MULTs                            : 3
-#      MULT18X18SIO                : 3
+# MULTs                            : 5
+#      MULT18X18SIO                : 5
 
 Device utilization summary:
 ---------------------------
 
-Selected Device : 3s50avq100-4 
+Selected Device : 3s200avq100-4 
 
- Number of Slices:                      844  out of    704   119% (*) 
- Number of Slice Flip Flops:           1037  out of   1408    73%  
- Number of 4 input LUTs:               1331  out of   1408    94%  
-    Number used as logic:              1248
+ Number of Slices:                      818  out of   1792    45%  
+ Number of Slice Flip Flops:           1031  out of   3584    28%  
+ Number of 4 input LUTs:               1271  out of   3584    35%  
+    Number used as logic:              1188
     Number used as Shift registers:      83
  Number of IOs:                          23
  Number of bonded IOBs:                  23  out of     68    33%  
- Number of BRAMs:                         2  out of      3    66%  
- Number of MULT18X18SIOs:                 3  out of      3   100%  
+ Number of BRAMs:                         2  out of     16    12%  
+ Number of MULT18X18SIOs:                 5  out of     16    31%  
  Number of GCLKs:                         4  out of     24    16%  
- Number of DCMs:                          2  out of      2   100%  
-
-WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+ Number of DCMs:                          2  out of      4    50%  
 
 ---------------------------
 Partition Resource Summary:
@@ -1439,8 +1435,8 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-VClockN                            | DCM_SP:CLK2X           | 940   |
-VClockN                            | DCM_SP:CLKFX           | 121   |
+VClockN                            | DCM_SP:CLK2X           | 927   |
+VClockN                            | DCM_SP:CLKFX           | 130   |
 VClockN                            | DCM_SP:CLKFX           | 63    |
 VClockN                            | DCM_SP:CLKFX180        | 4     |
 -----------------------------------+------------------------+-------+
@@ -1453,7 +1449,7 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 39.294ns (Maximum Frequency: 25.449MHz)
+   Minimum period: 39.768ns (Maximum Frequency: 25.146MHz)
    Minimum input arrival time before clock: 4.439ns
    Maximum output required time after clock: 5.558ns
    Maximum combinational path delay: 0.000ns
@@ -1464,34 +1460,29 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'VClockN'
-  Clock period: 39.294ns (frequency: 25.449MHz)
-  Total number of paths / destination ports: 372977 / 2555
+  Clock period: 39.768ns (frequency: 25.146MHz)
+  Total number of paths / destination ports: 427634 / 2585
 -------------------------------------------------------------------------
-Delay:               6.549ns (Levels of Logic = 10)
-  Source:            Inst_Audio/Inst_SPDIFEnc/subcode_bit_0 (FF)
-  Destination:       Inst_Audio/Inst_SPDIFEnc/subcode_bit_5 (FF)
+Delay:               6.628ns (Levels of Logic = 5)
+  Source:            Inst_Audio/clock_counter_9_BRB0 (FF)
+  Destination:       Inst_Audio/clock_counter_10_BRB3 (FF)
   Source Clock:      VClockN falling 6.0X
   Destination Clock: VClockN falling 6.0X
 
-  Data Path: Inst_Audio/Inst_SPDIFEnc/subcode_bit_0 to Inst_Audio/Inst_SPDIFEnc/subcode_bit_5
+  Data Path: Inst_Audio/clock_counter_9_BRB0 to Inst_Audio/clock_counter_10_BRB3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              5   0.591   0.776  Inst_Audio/Inst_SPDIFEnc/subcode_bit_0 (Inst_Audio/Inst_SPDIFEnc/subcode_bit_0)
-     LUT1:I0->O            1   0.648   0.000  Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<0>_rt (Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<0>_rt)
-     MUXCY:S->O            1   0.632   0.000  Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<0> (Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<0>)
-     MUXCY:CI->O           1   0.065   0.000  Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<1> (Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<1>)
-     MUXCY:CI->O           1   0.065   0.000  Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<2> (Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<2>)
-     MUXCY:CI->O           1   0.065   0.000  Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<3> (Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<3>)
-     MUXCY:CI->O           1   0.065   0.000  Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<4> (Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_cy<4>)
-     XORCY:CI->O           2   0.844   0.527  Inst_Audio/Inst_SPDIFEnc/Mcount_subcode_bit_xor<5> (Inst_Audio/Inst_SPDIFEnc/Result<5>)
-     LUT4:I1->O            1   0.643   0.000  Inst_Audio/Inst_SPDIFEnc/subcode_bit_5_dpot3 (Inst_Audio/Inst_SPDIFEnc/subcode_bit_5_dpot3)
-     MUXF5:I0->O           1   0.276   0.452  Inst_Audio/Inst_SPDIFEnc/subcode_bit_5_dpot_f5 (Inst_Audio/Inst_SPDIFEnc/subcode_bit_5_dpot)
-     LUT3:I2->O            1   0.648   0.000  Inst_Audio/Inst_SPDIFEnc/subcode_bit_5_dpot1 (Inst_Audio/Inst_SPDIFEnc/subcode_bit_5_dpot1)
-     FDE:D                     0.252          Inst_Audio/Inst_SPDIFEnc/subcode_bit_5
+     FD:C->Q               6   0.591   0.672  Inst_Audio/clock_counter_9_BRB0 (Inst_Audio/clock_counter_9_BRB0)
+     LUT4_L:I3->LO         1   0.648   0.103  Inst_Audio/clock_counter[10]_BUS_0001_mux_6_OUT<10>28_SW2 (N168)
+     LUT4:I3->O           14   0.648   1.143  Inst_Audio/clock_counter[10]_BUS_0001_mux_6_OUT<10>63 (Inst_Audio/clock_counter_10)
+     LUT1:I0->O            0   0.648   0.000  Inst_Audio/Madd_n0027_Madd_xor<10>_rt (Inst_Audio/Madd_n0027_Madd_xor<10>_rt)
+     XORCY:LI->O           2   0.720   0.447  Inst_Audio/Madd_n0027_Madd_xor<10> (Inst_Audio/n0027<10>)
+     MUXF5:S->O            1   0.756   0.000  Inst_Audio/clock_counter[10]_BUS_0001_mux_6_OUT<10>28_SW1 (N158)
+     FD:D                      0.252          Inst_Audio/clock_counter_10_BRB3
     ----------------------------------------
-    Total                      6.549ns (4.794ns logic, 1.755ns route)
-                                       (73.2% logic, 26.8% route)
+    Total                      6.628ns (4.263ns logic, 2.365ns route)
+                                       (64.3% logic, 35.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'VClockN'
@@ -1558,14 +1549,14 @@ Clock to Setup on destination clock VClockN
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-VClockN        |         |         |   17.713|         |
+VClockN        |         |         |   18.569|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 20.74 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 20.66 secs
  
 WARNING:Xst:3152 - You have chosen to run a version of XST which is not the default solution
    for the specified device family. You are free to use it in order to take
@@ -1577,9 +1568,9 @@ WARNING:Xst:3152 - You have chosen to run a version of XST which is not the defa
    on the XST command line or in the XST process properties panel.
 --> 
 
-Total memory usage is 259600 kilobytes
+Total memory usage is 259344 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   63 (   0 filtered)
+Number of warnings :   55 (   0 filtered)
 Number of infos    :   40 (   0 filtered)
 

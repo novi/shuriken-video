@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.49d on Sat Oct 20 14:39:47 2018
+// Written by: Map P.49d on Sat Oct 20 14:44:22 2018
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -151,35 +151,10 @@ TIMEGRP Inst_ClockGen_dcm_clk2x = BEL "pixel_clk_en_27" BEL "prev_30khz" BEL
         "Inst_Reblanking/prev_vsync" BEL "Inst_Reblanking/hor_active_end_3"
         BEL "Inst_Reblanking/hor_active_end_1" BEL
         "Inst_Reblanking/prev_hsync" BEL "Inst_Reblanking/seen_vsync" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_0" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_1" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_2" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_3" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_4" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_5" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_6" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_7" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_8" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_9" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_10" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_11" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT_12" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_0" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_1" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_2" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_3" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_4" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_5" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_6" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_7" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_8" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_9" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_10" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_11" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_12" BEL
-        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT_13" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_4_OUT" BEL
         "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCr[7]_MuLt_3_OUT" BEL
         "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_6_OUT" BEL
+        "Inst_yuv_to_rgb/Mmult_GND_45_o_VideoIn_PixelCb[7]_MuLt_5_OUT" BEL
         "Inst_yuv_to_rgb/Inst_BlankingDelay/Output" BEL
         "Inst_yuv_to_rgb/VideoOut_PixelG_7" BEL
         "Inst_yuv_to_rgb/VideoOut_PixelG_6" BEL
@@ -432,10 +407,8 @@ TIMEGRP Inst_ClockGen_dcm_clk2x = BEL "pixel_clk_en_27" BEL "prev_30khz" BEL
         "Inst_DVI/left_buffer_6" BEL "Inst_DVI/left_buffer_5" BEL
         "Inst_DVI/left_buffer_4" BEL "Inst_DVI/left_buffer_3" BEL
         "Inst_DVI/left_buffer_2" BEL "Inst_DVI/left_buffer_1" BEL
-        "Inst_DVI/left_buffer_0" BEL "Inst_DVI/TDMS_encoder_blue/dc_bias_3"
-        BEL "Inst_DVI/TDMS_encoder_blue/dc_bias_2" BEL
-        "Inst_DVI/TDMS_encoder_blue/dc_bias_1" BEL
-        "Inst_DVI/TDMS_encoder_blue/dc_bias_0" BEL
+        "Inst_DVI/left_buffer_0" BEL "Inst_DVI/TDMS_encoder_blue/dc_bias_1"
+        BEL "Inst_DVI/TDMS_encoder_blue/dc_bias_0" BEL
         "Inst_DVI/TDMS_encoder_blue/encoded_9" BEL
         "Inst_DVI/TDMS_encoder_blue/encoded_8" BEL
         "Inst_DVI/TDMS_encoder_blue/encoded_7" BEL
@@ -446,8 +419,6 @@ TIMEGRP Inst_ClockGen_dcm_clk2x = BEL "pixel_clk_en_27" BEL "prev_30khz" BEL
         "Inst_DVI/TDMS_encoder_blue/encoded_2" BEL
         "Inst_DVI/TDMS_encoder_blue/encoded_1" BEL
         "Inst_DVI/TDMS_encoder_blue/encoded_0" BEL
-        "Inst_DVI/TDMS_encoder_green/dc_bias_3" BEL
-        "Inst_DVI/TDMS_encoder_green/dc_bias_2" BEL
         "Inst_DVI/TDMS_encoder_green/dc_bias_1" BEL
         "Inst_DVI/TDMS_encoder_green/dc_bias_0" BEL
         "Inst_DVI/TDMS_encoder_green/encoded_9" BEL
@@ -460,8 +431,6 @@ TIMEGRP Inst_ClockGen_dcm_clk2x = BEL "pixel_clk_en_27" BEL "prev_30khz" BEL
         "Inst_DVI/TDMS_encoder_green/encoded_2" BEL
         "Inst_DVI/TDMS_encoder_green/encoded_1" BEL
         "Inst_DVI/TDMS_encoder_green/encoded_0" BEL
-        "Inst_DVI/TDMS_encoder_red/dc_bias_3" BEL
-        "Inst_DVI/TDMS_encoder_red/dc_bias_2" BEL
         "Inst_DVI/TDMS_encoder_red/dc_bias_1" BEL
         "Inst_DVI/TDMS_encoder_red/dc_bias_0" BEL
         "Inst_DVI/TDMS_encoder_red/encoded_9" BEL
@@ -524,8 +493,27 @@ TIMEGRP Inst_ClockGen_dcm_clk2x = BEL "pixel_clk_en_27" BEL "prev_30khz" BEL
         "Inst_DVI/ECC_subpacket1/DataOut_0" BEL
         "Inst_DVI/ECC_subpacket1/reg_7" BEL "Inst_DVI/ECC_subpacket1/reg_6"
         BEL "Inst_DVI/ECC_subpacket1/reg_5" BEL
-        "Inst_DVI/ECC_subpacket1/reg_4" BEL "Inst_GCVideo/Video_HSync_BRB0"
-        BEL "Inst_422_to_444/Inst_VSyncDelay/Mshreg_Output" BEL
+        "Inst_DVI/ECC_subpacket1/reg_4" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_2_BRB0" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_2_BRB1" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_2_BRB0" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_2_BRB1" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_2_BRB0" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_2_BRB1" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB0" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB1" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB2" BEL
+        "Inst_DVI/TDMS_encoder_blue/dc_bias_3_BRB3" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB0" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB1" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB2" BEL
+        "Inst_DVI/TDMS_encoder_green/dc_bias_3_BRB3" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB0" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB1" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB2" BEL
+        "Inst_DVI/TDMS_encoder_red/dc_bias_3_BRB3" BEL
+        "Inst_GCVideo/Video_HSync_BRB0" BEL
+        "Inst_422_to_444/Inst_VSyncDelay/Mshreg_Output" BEL
         "Inst_422_to_444/Inst_VSyncDelay/Output" BEL
         "Inst_422_to_444/Inst_BlankingDelay/Mshreg_delayline_2" BEL
         "Inst_422_to_444/Inst_BlankingDelay/delayline_2" BEL
@@ -552,25 +540,25 @@ TIMEGRP Inst_ClockGen_dcm_clk2x = BEL "pixel_clk_en_27" BEL "prev_30khz" BEL
         "Inst_DVI/Mshreg_green_d_3" BEL "Inst_DVI/green_d_3" BEL
         "Inst_DVI/Mshreg_green_d_2" BEL "Inst_DVI/green_d_2" BEL
         "Inst_DVI/Mshreg_channel_status_0_0" BEL
-        "Inst_DVI/left_buffer<9>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_1.SLICEM_GMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_1" BEL
-        "Inst_DVI/left_buffer<9>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_1.SLICEM_FMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_2" BEL
-        "Inst_DVI/right_buffer<10>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/right_buffer<3>.SLICEM_GMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_3" BEL
-        "Inst_DVI/right_buffer<10>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/right_buffer<3>.SLICEM_FMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_4" BEL
-        "Inst_DVI/right_buffer<0>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_5.SLICEM_GMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_5" BEL
-        "Inst_DVI/right_buffer<0>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_5.SLICEM_FMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_6" BEL
-        "Inst_DVI/left_buffer<7>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_7.SLICEM_GMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_7" BEL
-        "Inst_DVI/left_buffer<7>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_7.SLICEM_FMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_8" BEL
-        "Inst_DVI/right_buffer<12>.SLICEM_GMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_9.SLICEM_GMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_9" BEL
-        "Inst_DVI/right_buffer<12>.SLICEM_FMC15_BLACKBOX" BEL
+        "Inst_DVI/Mshreg_channel_status_0_9.SLICEM_FMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_10" BEL
         "Inst_DVI/channel_status<0>.SLICEM_GMC15_BLACKBOX" BEL
         "Inst_DVI/Mshreg_channel_status_0_11" BEL "Inst_DVI/channel_status_0"
@@ -734,9 +722,6 @@ TIMEGRP Inst_ClockGen_adcm_clkfx = BEL "Inst_Audio/clock_counter_4" BEL
         "Inst_Audio/Inst_SPDIFEnc/shifter_11" BEL
         "Inst_Audio/Inst_SPDIFEnc/shifter_10" BEL
         "Inst_Audio/Inst_SPDIFEnc/shifter_9" BEL
-        "Inst_Audio/Inst_SPDIFEnc/shifter_8" BEL
-        "Inst_Audio/Inst_SPDIFEnc/shifter_7" BEL
-        "Inst_Audio/Inst_SPDIFEnc/shifter_6" BEL
         "Inst_Audio/Inst_SPDIFEnc/shifter_5" BEL
         "Inst_Audio/Inst_SPDIFEnc/shifter_4" BEL
         "Inst_Audio/Inst_SPDIFEnc/shifter_3" BEL
@@ -747,17 +732,29 @@ TIMEGRP Inst_ClockGen_adcm_clkfx = BEL "Inst_Audio/clock_counter_4" BEL
         "Inst_Audio/Inst_SPDIFEnc/current_channel" BEL
         "Inst_Audio/Inst_SPDIFEnc/bit_phase" BEL
         "Inst_Audio/Inst_SPDIFEnc/channel_status" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_6_BRB0" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_6_BRB1" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_6_BRB2" BEL
         "Inst_Audio/clock_counter_10_BRB1" BEL
         "Inst_Audio/clock_counter_10_BRB2" BEL
+        "Inst_Audio/clock_counter_10_BRB3" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB0" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB1" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB2" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_7_BRB3" BEL
         "Inst_Audio/clock_counter_9_BRB0" BEL
         "Inst_Audio/clock_counter_9_BRB3" BEL
         "Inst_Audio/clock_counter_8_BRB1" BEL
+        "Inst_Audio/clock_counter_8_BRB3" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_8_BRB0" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_8_BRB1" BEL
+        "Inst_Audio/Inst_SPDIFEnc/shifter_8_BRB2" BEL
         "Inst_Audio/clock_counter_7_BRB1" BEL
         "Inst_Audio/clock_counter_7_BRB2" BEL
+        "Inst_Audio/clock_counter_7_BRB3" BEL
         "Inst_Audio/clock_counter_10_BRB4" BEL
         "Inst_Audio/clock_counter_10_BRB5" BEL
-        "Inst_Audio/clock_counter_10_BRB8" BEL
-        "Inst_Audio/clock_counter_9_BRB4" BEL
+        "Inst_Audio/clock_counter_10_BRB7" BEL
         "Inst_Audio/clock_counter_9_BRB5" BEL
         "Inst_Audio/clock_counter_9_BRB6" BEL
         "Inst_Audio/Deglitch_BClock/Mshreg_syncer_3" BEL

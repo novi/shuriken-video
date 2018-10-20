@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Sat Oct 20 14:39:48 2018">
+  <application stringID="Map" timeStamp="Sat Oct 20 14:44:23 2018">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -66,12 +66,12 @@
       <item DEFAULT="None" label="-intstyle" stringID="MAP_INTSTYLE" value="ise"/>
       <item DEFAULT="None" label="-o" stringID="MAP_OUTFILE" value="toplevel_p2xh_map.ncd"/>
       <item DEFAULT="off" label="-pr" stringID="MAP_PACK_INTERNAL" value="b"/>
-      <item DEFAULT="None" label="-p" stringID="MAP_PARTNAME" value="xc3s50a-vq100-4"/>
+      <item DEFAULT="None" label="-p" stringID="MAP_PARTNAME" value="xc3s200a-vq100-4"/>
     </section>
     <task stringID="MAP_PACK_REPORT">
       <section stringID="MAP_DESIGN_INFORMATION">
-        <item stringID="MAP_PART" value="3s50avq100-4"/>
-        <item stringID="MAP_DEVICE" value="xc3s50a"/>
+        <item stringID="MAP_PART" value="3s200avq100-4"/>
+        <item stringID="MAP_DEVICE" value="xc3s200a"/>
         <item stringID="MAP_ARCHITECTURE" value="spartan3a"/>
         <item stringID="MAP_PACKAGE" value="vq100"/>
         <item stringID="MAP_SPEED" value="-4"/>
@@ -80,17 +80,17 @@
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
         <item dataType="int" stringID="MAP_NUM_WARNINGS" value="19"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="332196"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="21 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="20 secs "/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="339172"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="23 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="21 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
-        <item AVAILABLE="1408" dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="1024"/>
-        <item AVAILABLE="1408" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="1315">
-          <item dataType="int" label="Number of route-thrus" stringID="MAP_NUM_LUT_RT" value="69"/>
+        <item AVAILABLE="3584" dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="1018"/>
+        <item AVAILABLE="3584" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="1247">
+          <item dataType="int" label="Number of route-thrus" stringID="MAP_NUM_LUT_RT" value="67"/>
           <item dataType="int" label="Number used as Shift registers" stringID="MAP_NUM_SHIFT" value="83"/>
         </item>
-        <item AVAILABLE="704" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="704">
+        <item AVAILABLE="1792" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="988">
           <item dataType="int" label="Number of Slices containing unrelated logic" stringID="MAP_NUM_SLICE_UNRELATED" value="0"/>
         </item>
       </section>
@@ -104,8 +104,8 @@
       </section>
       <section stringID="MAP_HARD_IP_REPORTING">
         <item AVAILABLE="24" dataType="int" label="Number of BUFGMUXs" stringID="MAP_NUM_BUFGMUX" value="4"/>
-        <item AVAILABLE="2" dataType="int" stringID="MAP_NUM_DCM" value="2"/>
-        <item AVAILABLE="3" dataType="int" stringID="MAP_NUM_MULT18X18SIO" value="3"/>
+        <item AVAILABLE="4" dataType="int" stringID="MAP_NUM_DCM" value="2"/>
+        <item AVAILABLE="16" dataType="int" stringID="MAP_NUM_MULT18X18SIO" value="5"/>
       </section>
       <section stringID="MAP_MACRO_RPM_REPORTING">
         <item dataType="int" stringID="MAP_HARD_MACROS" value="0"/>
@@ -320,7 +320,7 @@
       </section>
       <section stringID="MAP_RPM_MACROS">
         <section stringID="MAP_SHAPE_SECTION">
-          <item dataType="int" stringID="MAP_NUM_SHAPE" value="23"/>
+          <item dataType="int" stringID="MAP_NUM_SHAPE" value="19"/>
         </section>
       </section>
       <section stringID="MAP_GUIDE_REPORT"/>
@@ -332,7 +332,7 @@
         <item stringID="MAP_CLKIN_DIVIDE_BY_2" value="CLKIN_DIVIDE_BY_2"/>
         <item stringID="MAP_CLKOUT_PHASE_SHIFT" value="NONE"/>
         <item stringID="MAP_CLK_FEEDBACK" value="2X"/>
-        <item stringID="MAP_DESKEW_ADJUST" value="9"/>
+        <item stringID="MAP_DESKEW_ADJUST" value="10"/>
         <item stringID="MAP_DFS_FREQUENCY_MODE" value="LOW"/>
         <item stringID="MAP_DLL_FREQUENCY_MODE" value="LOW"/>
         <item stringID="MAP_DUTY_CYCLE_CORRECTION" value="TRUE"/>

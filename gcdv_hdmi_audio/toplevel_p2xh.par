@@ -1,15 +1,15 @@
 Release 14.4 par P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-ITO-MACPRO-VM::  Sat Oct 20 14:39:52 2018
+ITO-MACPRO-VM::  Sat Oct 20 14:44:27 2018
 
 par -w -intstyle ise -ol high -xe n -t 1 toplevel_p2xh_map.ncd
 toplevel_p2xh.ncd toplevel_p2xh.pcf 
 
 
 Constraints file: toplevel_p2xh.pcf.
-Loading device for application Rf_Device from file '3s50a.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
-   "toplevel_p2xh" is an NCD, version 3.2, device xc3s50a, package vq100, speed -4
+Loading device for application Rf_Device from file '3s200a.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
+   "toplevel_p2xh" is an NCD, version 3.2, device xc3s200a, package vq100, speed -4
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
@@ -45,43 +45,53 @@ Design Summary Report:
 
 
    Number of BUFGMUXs                        4 out of 24     16%
-   Number of DCMs                            2 out of 2     100%
-   Number of MULT18X18SIOs                   3 out of 3     100%
-   Number of RAMB16BWEs                      2 out of 3      66%
-   Number of Slices                        704 out of 704   100%
-      Number of SLICEMs                     64 out of 352    18%
+   Number of DCMs                            2 out of 4      50%
+   Number of MULT18X18SIOs                   5 out of 16     31%
+   Number of RAMB16BWEs                      2 out of 16     12%
+   Number of Slices                        988 out of 1792   55%
+      Number of SLICEMs                     66 out of 896     7%
 
 
 
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 3 secs 
-Finished initial Timing Analysis.  REAL time: 3 secs 
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
 
 Starting Router
 
 
-Phase  1  : 6379 unrouted;      REAL time: 4 secs 
+Phase  1  : 6538 unrouted;      REAL time: 6 secs 
 
-Phase  2  : 5323 unrouted;      REAL time: 4 secs 
+Phase  2  : 5299 unrouted;      REAL time: 6 secs 
 
-Phase  3  : 1541 unrouted;      REAL time: 4 secs 
+Phase  3  : 987 unrouted;      REAL time: 6 secs 
 
-Phase  4  : 1550 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 4 secs 
+Phase  4  : 999 unrouted; (Setup:0, Hold:1550, Component Switching Limit:0)     REAL time: 7 secs 
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:1332, Component Switching Limit:0)     REAL time: 7 secs 
 
 Updating file: toplevel_p2xh.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:1332, Component Switching Limit:0)     REAL time: 8 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 6 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:1332, Component Switching Limit:0)     REAL time: 9 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:1332, Component Switching Limit:0)     REAL time: 9 secs 
 
-Total REAL time to Router completion: 7 secs 
-Total CPU time to Router completion: 7 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:1332, Component Switching Limit:0)     REAL time: 10 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:1332, Component Switching Limit:0)     REAL time: 10 secs 
+
+Phase 11  : 0 unrouted; (Setup:0, Hold:1332, Component Switching Limit:0)     REAL time: 10 secs 
+
+Phase 12  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
+
+Phase 13  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 10 secs 
+
+Total REAL time to Router completion: 10 secs 
+Total CPU time to Router completion: 10 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -99,13 +109,13 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|            Clock54M | BUFGMUX_X1Y10| No   |  550 |  0.227     |  0.686      |
+|          ClockAudio |  BUFGMUX_X1Y0| No   |  102 |  0.153     |  1.124      |
 +---------------------+--------------+------+------+------------+-------------+
-|          ClockAudio | BUFGMUX_X2Y10| No   |   89 |  0.175     |  0.637      |
+|            Clock54M | BUFGMUX_X1Y10| No   |  674 |  0.221     |  1.183      |
 +---------------------+--------------+------+------+------------+-------------+
-|           DVIClockN | BUFGMUX_X2Y11| No   |    4 |  0.035     |  0.506      |
+|           DVIClockN | BUFGMUX_X2Y11| No   |    4 |  0.023     |  0.994      |
 +---------------------+--------------+------+------+------------+-------------+
-|           DVIClockP | BUFGMUX_X1Y11| No   |   44 |  0.052     |  0.519      |
+|           DVIClockP | BUFGMUX_X1Y11| No   |   49 |  0.037     |  1.008      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -127,52 +137,52 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_Inst_ClockGen_adcm_clkfx = PERIOD TIME | SETUP       |     0.138ns|     6.034ns|       0|           0
-  GRP "Inst_ClockGen_adcm_clkfx"         TS | HOLD        |     0.928ns|            |       0|           0
-  _CLOCK_54 * 3 HIGH 50%                    |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_Inst_ClockGen_dcm_clkfx = PERIOD TIMEG | SETUP       |     0.434ns|     6.539ns|       0|           0
-  RP "Inst_ClockGen_dcm_clkfx"         TS_C | HOLD        |     0.790ns|            |       0|           0
-  LOCK_54 * 2.5 HIGH 50%                    |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_Inst_ClockGen_dcm_clk2x = PERIOD TIMEG | SETUP       |     1.398ns|    17.120ns|       0|           0
-  RP "Inst_ClockGen_dcm_clk2x"         TS_C | HOLD        |     0.412ns|            |       0|           0
+  TS_Inst_ClockGen_dcm_clk2x = PERIOD TIMEG | SETUP       |     0.020ns|    18.458ns|       0|           0
+  RP "Inst_ClockGen_dcm_clk2x"         TS_C | HOLD        |     0.107ns|            |       0|           0
   LOCK_54 HIGH 50%                          |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_Inst_ClockGen_dcm_clkfx180 = PERIOD TI | SETUP       |     1.820ns|     3.766ns|       0|           0
-  MEGRP "Inst_ClockGen_dcm_clkfx180"        | HOLD        |     4.216ns|            |       0|           0
+  TS_Inst_ClockGen_adcm_clkfx = PERIOD TIME | SETUP       |     0.080ns|     6.092ns|       0|           0
+  GRP "Inst_ClockGen_adcm_clkfx"         TS | HOLD        |     0.882ns|            |       0|           0
+  _CLOCK_54 * 3 HIGH 50%                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_Inst_ClockGen_dcm_clkfx = PERIOD TIMEG | SETUP       |     0.998ns|     6.288ns|       0|           0
+  RP "Inst_ClockGen_dcm_clkfx"         TS_C | HOLD        |     0.911ns|            |       0|           0
+  LOCK_54 * 2.5 HIGH 50%                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_Inst_ClockGen_dcm_clkfx180 = PERIOD TI | SETUP       |     1.789ns|     3.828ns|       0|           0
+  MEGRP "Inst_ClockGen_dcm_clkfx180"        | HOLD        |     4.184ns|            |       0|           0
     TS_CLOCK_54 * 2.5 PHASE 3.7037037 ns HI |             |            |            |        |            
   GH 50%                                    |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  COMP "CSel" OFFSET = IN 5 ns VALID 12 ns  | SETUP       |     2.377ns|     2.623ns|       0|           0
-  BEFORE COMP "VClockN" LOW                 | HOLD        |     4.363ns|            |       0|           0
+  COMP "CSel" OFFSET = IN 5 ns VALID 12 ns  | SETUP       |     2.821ns|     2.179ns|       0|           0
+  BEFORE COMP "VClockN" LOW                 | HOLD        |     4.587ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_CLOCK_54 = PERIOD TIMEGRP "CLOCK_54" 5 | MINLOWPULSE |    31.036ns|     6.000ns|       0|           0
   4 MHz HIGH 50%                            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<5>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.684ns|     1.316ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.443ns|            |       0|           0
+  COMP "VData<7>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.134ns|     0.866ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     3.566ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<7>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.847ns|     1.153ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.355ns|            |       0|           0
+  COMP "VData<6>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.134ns|     0.866ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.021ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<6>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.847ns|     1.153ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.376ns|            |       0|           0
+  COMP "VData<1>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.135ns|     0.865ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.750ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<4>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.855ns|     1.145ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.440ns|            |       0|           0
+  COMP "VData<0>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.138ns|     0.862ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.350ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<3>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.863ns|     1.137ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.628ns|            |       0|           0
+  COMP "VData<3>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.145ns|     0.855ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     3.712ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<2>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.863ns|     1.137ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     5.069ns|            |       0|           0
+  COMP "VData<2>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.145ns|     0.855ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.008ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<1>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.873ns|     1.127ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.804ns|            |       0|           0
+  COMP "VData<5>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.149ns|     0.851ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     3.998ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "VData<0>" OFFSET = IN 5 ns VALID 12 | SETUP       |     3.876ns|     1.124ns|       0|           0
-   ns BEFORE COMP "VClockN" LOW             | HOLD        |     4.643ns|            |       0|           0
+  COMP "VData<4>" OFFSET = IN 5 ns VALID 12 | SETUP       |     4.149ns|     0.851ns|       0|           0
+   ns BEFORE COMP "VClockN" LOW             | HOLD        |     3.818ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -186,11 +196,11 @@ Derived Constraints for TS_CLOCK_54
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_CLOCK_54                    |     18.519ns|      6.000ns|     18.102ns|            0|            0|            0|       368148|
-| TS_Inst_ClockGen_adcm_clkfx   |      6.173ns|      6.034ns|          N/A|            0|            0|         1472|            0|
-| TS_Inst_ClockGen_dcm_clk2x    |     18.519ns|     17.120ns|          N/A|            0|            0|       366488|            0|
-| TS_Inst_ClockGen_dcm_clkfx    |      7.407ns|      6.539ns|          N/A|            0|            0|          184|            0|
-| TS_Inst_ClockGen_dcm_clkfx180 |      7.407ns|      3.766ns|          N/A|            0|            0|            4|            0|
+|TS_CLOCK_54                    |     18.519ns|      6.000ns|     18.458ns|            0|            0|            0|       351318|
+| TS_Inst_ClockGen_adcm_clkfx   |      6.173ns|      6.092ns|          N/A|            0|            0|         1528|            0|
+| TS_Inst_ClockGen_dcm_clk2x    |     18.519ns|     18.458ns|          N/A|            0|            0|       349602|            0|
+| TS_Inst_ClockGen_dcm_clkfx    |      7.407ns|      6.288ns|          N/A|            0|            0|          184|            0|
+| TS_Inst_ClockGen_dcm_clkfx180 |      7.407ns|      3.828ns|          N/A|            0|            0|            4|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -200,10 +210,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 8 secs 
-Total CPU time to PAR completion: 8 secs 
+Total REAL time to PAR completion: 11 secs 
+Total CPU time to PAR completion: 11 secs 
 
-Peak Memory Usage:  278 MB
+Peak Memory Usage:  294 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
